@@ -1,2 +1,2 @@
-# 6oo.github.io
+# 6oo-cn.github.io
 六窝窝
