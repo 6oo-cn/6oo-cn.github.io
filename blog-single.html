@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>6oo.cn | 简历 HTML 模板</title>
+    <!--样式表 -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!--网站图标-->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <!--响应式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+    <div class="page-wrapper default-version">
+
+        <!--预加载器 -->
+        <div class="preloader"></div>
+
+        <div class="page-background">
+            <div class="image-1"><img src="images/icons/shape/icon-1.png" alt=""></div>
+            <div class="image-7"><img src="images/icons/shape/icon-7.png" alt=""></div>
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <!-- 手机菜单 -->
+        <div class="mobile-menu">
+            <div class="container">
+                <!--导航外-->
+                <div class="nav-outer clearfix">
+                    <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                    <!-- 主菜单 -->
+                    <nav class="main-menu">
+                        <div class="navbar-header">
+                            <!-- 切换按钮 -->
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+
+                        <div class="navbar-collapse collapse scroll-nav clearfix">
+                            <ul class="navigation clearfix">
+
+                                <li class="current"><a href="#home">首页</a></li>
+                                <li><a href="#about"> 关于 </a></li>
+                                <li><a href="#resume"> 简历 </a></li>
+                                <li><a href="#services"> 服务 </a></li>
+                                <li><a href="#work"> 工程 </a></li>
+                                <li><a href="#blog"> 博客 </a></li>
+                                <li><a href="#contact"> 联系 </a></li>
+
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- 主菜单结束-->
+                </div>
+                <!--导航外端-->
+            </div>
+        </div>
+ 	
+        <div class="card-outer">
+            <div class="scroll-box">
+                <div class="container" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+                    <div class="card-wrapper">
+                        <div class="author-info" style="background-image:url(images/background/3.jpg)">
+                            <div class="image"><img src="images/resource/user.png" alt=""></div>
+                            <div class="author">
+                                <h3> 六窝窝 </h3>
+                                <div class="designation">
+                                    嗨！
+                                    <div class="typing-title">
+                                        <p> 欢迎来到 <strong> 六窝窝. </strong></p>
+                                        <p> 我们可以 <strong> 定制数字人. </strong></p>
+                                        <p> 专属定制<strong> 虚拟直播间. </strong></p>
+                                    </div>
+                                    <span class="typed-title"></span>
+                                </div>
+                            </div>
+                            <div class="link-btn">
+                                <a href="http://www.6oo.cn/" class="theme-btn btn-style-one"> 官网 </a>
+                            </div>
+                        <ul class="social-icon-two">
+                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                            <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="card-inner-box offsetleft">
+                        <header class="header">
+                            <ul class="main-menu">
+                                <li class="home"><a class="logo" href="index.html"><img src="images/logo.png" alt=""></a></li>
+                                <li class="active"><a href="#blog"><i class="flaticon-blog"></i> 博客 </a></li>
+                            </ul>
+                        </header>
+
+                        <!-- 卡片项目 -->
+                        <div class="card-blog single-post card-item active" id="blog" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title"> UE小技巧 </h4>
+                                <div class="news-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="images/resource/blog-1.jpg" alt="">
+                                        </div>
+                                        <div class="date"><strong>02</strong> <br> 9 </div>
+                                        <div class="lower-content">
+                                            <h4> 超详细UE5超人飞行动画重定向到Metahuman </h4>
+                                            <div class="post-meta"> 项目  /  <span> 前期准备 </span></div>
+                                            <div class="text">
+                                                <p> 新建项目，然后将 Superhero Flight Animations 添加到项目或者导入学习版到 Content 目录下，然后从 Bridge 导入 Metahuman 到项目中 </p>
+                                                <p>1：在Metahuman目录下将人物蓝图复制一份，双击打开</p>
+												<P>2：在窗口上方找到类设置点击，右边类选项下父类更换为第三人称BP_ThirdPersonCharacter</p>
+
+												<P>3：左边组件框中将Body拖入到网格体(CharacterMesh0)中</p>
+
+												<P>4：右边细节面板下变换位置和旋转重置为零</p>
+
+												<P>5：左边我的蓝图下变量 Live Retarget 下的 UseLiveRetargetMode 点击</p>
+
+												<P>6：右边细节面板下默认值下的 UseLiveRetargetMode 勾选上</p>
+
+												<P>7：点击网格体，右边细节面板中搜索 Tick ，在高级选项中把 固定tick姿势 更换为  固定tick姿势和刷新骨骼</p>
+
+												<P>8：接着在细节面板中搜索 visib ，把可视勾选去掉，编译保存</p>
+
+												<P>9：在Blueprints下System下面的默认 pawn 类右边更换为自己的 Metahuman 编译保存</p>
+
+												<P>10：文件包内容里面附件从项目设置 >> 引擎 >> 输入 >> 导入，就可以完美运行~！</p>
+
+												<P>注：商用请移步官网购买，避免不必要的麻烦，感谢</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 标签 -->
+                                <ul class="share-box">
+                                    <li><strong> 标签: </strong></li>
+                                    <li><a href="#"> 骨骼绑定, </a></li>
+                                    <li><a href="#"> 动画, </a></li>
+                                    <li><a href="#"> 超人飞行,</a></li>
+                                </ul>
+                                <!-- 评论区 -->
+                                <div class="comments-area">
+                                    <div class="group-title"><h2>02 条评论 </h2></div>
+                                    
+                                    <!-- 注释框 -->
+                                    <div class="comment-box">
+                                        <div class="comment">
+                                            <div class="author-thumb"><img src="images/resource/author-2.jpg" alt=""></div>
+                                            <div class="comment-inner">
+                                                <div class="comment-info clearfix"><strong> 压力山大 </strong><div class="comment-time"> 2022,12,9 日 8:30 分</div></div>
+                                                <div class="text"> 提出双赢的生存策略，以确保主动控制。在一天结束的时候，继续前进 </div>
+                                                <a class="comment-reply" href="#"><span class="icon fa fa-mail-reply"></span>  回复 </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- 注释框 -->
+                                    <div class="comment-box">
+                                        <div class="comment">
+                                            <div class="author-thumb"><img src="images/resource/author-3.jpg" alt=""></div>
+                                            <div class="comment-inner">
+                                                <div class="comment-info clearfix"><strong> 鸭麻袋 </strong><div class="comment-time"> 2022,12,9 日 10:30 分 </div></div>
+                                                <div class="text"> 提出双赢的生存策略，以确保主动控制。最后，展望未来< </div>
+                                                <a class="comment-reply" href="#"><span class="icon fa fa-mail-reply"></span> 回复 </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <!-- 联系表 -->
+                                <div class="contact-form">
+                                    <!--意见表-->
+                                    <form method="post" action="sendemail.php" id="contact-form">
+                                        <div class="row clearfix">
+                                            
+                                            <div class="col-md-6 form-group">
+                                                <input type="text" name="username" placeholder= "名字" required>
+                                            </div>
+                                            
+                                            <div class="col-md-6 form-group">
+                                                <input type="email" name="email" placeholder= "邮箱" required>
+                                            </div>
+
+                                            <div class="col-lg-12 col-md-12 form-group">
+                                                <textarea name="message" placeholder="输入信息"></textarea>
+                                            </div>
+                                            
+                                            <div class="col-lg-12 col-md-12 form-group">
+                                                <button class="theme-btn btn-style-two" type="submit" name="submit-form"> 立即提交 </button>
+                                            </div>
+                                            
+                                        </div>
+                                    </form>
+                                        
+                                </div>
+                                <!--End 联系表 -->
+                            </div>
+                        </div>
+                        <!-- end item -->
+
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+            
+    </div>
+
+</div>
+<!--End pagewrapper-->
+
+
+<script src="js/jquery.js"></script> 
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/element-in-view.js"></script>
+<script src="js/knob.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/mousemoveparallax.js"></script>
+<script src="js/pagenav.js"></script>
+<script src="js/jquery-type.js"></script>
+<script src="js/particle-alone.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/script.js"></script>
+
+<!--Google Map APi Key-->
+<script src="http://ditu.google.cn/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script>
+<script src="js/gmaps.js"></script>
+<script src="js/map-script.js"></script>
+<!--End Google Map APi-->
+
+</body>
+</html>
