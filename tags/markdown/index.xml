@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on 只收录实用工具与精品教程</title>
+    <link>https://example.org/tags/markdown/index.html</link>
+    <description>Recent content in Markdown on 只收录实用工具与精品教程</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <atom:link href="https://example.org/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown 语法</title>
+      <link>https://example.org/index.html</link>
+      <pubDate>Tue, 13 Feb 2024 03:39:41 +0800</pubDate>
+      <guid>https://example.org/index.html</guid>
+      <description>让我们面对现实吧：为网络编写内容令人厌烦。WYSIWYG编辑器有助于缓解这项任务，但它们通常会导致可怕的代码，或者更糟糕的是，丑陋的网页。
+Markdown是编写HTML的更好方法，没有通常随之而来的所有复杂性和丑陋。
+一些关键的好处是：
+Markdown学习简单，额外的字符很少，因此编写内容也更快。 在Markdown中书写时出错的可能性更小。 生成有效的HTML输出。 将内容和视觉显示分开，这样您就不会弄乱网站的外观。 写任何你喜欢的文本编辑器或Markdown应用程序。 Markdown使用起来很愉快！ 《Markdown》的作者John Gruber是这样说的：
+Markdown格式语法的首要设计目标是使其尽可能具有可读性。其想法是，Markdown格式的文档应该是可按原样发布的，作为纯文本，而不会看起来像是用标记或格式说明标记的。虽然Markdown的语法受到了现有的几种文本到HTML过滤器的影响，但Markdown语法的最大灵感来源是纯文本电子邮件的格式. 约翰·格鲁伯
+不再拖延，让我们来看看Markdown的主要元素以及由此产生的HTML是什么样子的:
+提示 Bookmark this page and the official Commonmark reference for easy future reference!
+段落 在Markdown中，您的内容通常跨越整个可用文档宽度。这被称为块。在生成的文档中，块总是用空格与相邻的块隔开。 任何不以特殊符号开头的文本都被写成普通的纯文本段落块，并且必须用空行与相邻的块隔开。
+Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad. Result Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus.</description>
+    </item>
+  </channel>
+</rss>

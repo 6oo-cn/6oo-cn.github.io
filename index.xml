@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown 语法 on 只收录实用工具与精品教程</title>
+    <link>https://example.org/index.html</link>
+    <description>Recent content in Markdown 语法 on 只收录实用工具与精品教程</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 13 Feb 2024 03:39:41 +0800</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>个人笔记</title>
+      <link>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/index.html</link>
+      <pubDate>Tue, 13 Feb 2024 03:39:41 +0800</pubDate>
+      <guid>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/index.html</guid>
+      <description>首先使用以下命令创建第一章页面 hugo new --kind chapter basics/_index.md 然后，在之前创建的章节中创建内容页面。以下是在本章中创建内容的两种方法
+hugo new basics/first-content.md hugo new basics/second-content/_index.md 在本地启动网站 hugo serve 浏览器打开 [http://localhost:1313]
+构建网站 当您的网站准备部署时，运行以下命令： hugo
+罗马字母的第一个字母public将生成文件夹，包含您网站的所有静态内容和资产。它现在可以部署在任何网络服务器上.
+一：查看安装版本 hugo version二：安装Hugo ➡️ 已经安装就忽略 brew install hugo三：创建本地站点 ➡️ 进入根目录 hugo new site My-6oo; cd My-6oo克隆主题到本地
+git clone https://github.com/McShelby/hugo-theme-relearn.git指向当前主题路径
+echo &amp;#34;theme = &amp;#39;hugo-theme-relearn&amp;#39;&amp;#34; &amp;gt;&amp;gt; hugo.toml或者
+hugo server -t hugo-theme-relearn --buildDraftshugo server -t shadocs --buildDrafts四：创建章节页面 主题提供了为您的网站创建骨架的原型。
+hugo new --kind chapter 个人笔记/_index.md五：创建您的第一个内容页面 然后，在之前创建的章节中创建内容页面。以下是在本章中创建内容的两种方法：
+hugo new 开源工具/小工具推荐/_index.mdhugo new basics/first-content.md通过添加一些示例内容并替换文件开头的值来编辑这些文件。title
+六：在本地启动网站 使用以下命令启动：</description>
+    </item>
+    <item>
+      <title>免费工具</title>
+      <link>https://example.org/%E5%85%8D%E8%B4%B9%E5%B7%A5%E5%85%B7/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/%E5%85%8D%E8%B4%B9%E5%B7%A5%E5%85%B7/index.html</guid>
+      <description>免费工具集合 这里有大量的免费开源工具推荐</description>
+    </item>
+    <item>
+      <title>资源网站</title>
+      <link>https://example.org/%E8%B5%84%E6%BA%90%E7%BD%91%E7%AB%99/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/%E8%B5%84%E6%BA%90%E7%BD%91%E7%AB%99/index.html</guid>
+      <description>免费资源网站集合 这里有大量的免费资源网站推荐</description>
+    </item>
+  </channel>
+</rss>

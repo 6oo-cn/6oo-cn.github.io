@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Win系统 on 只收录实用工具与精品教程</title>
+    <link>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/win%E7%B3%BB%E7%BB%9F/index.html</link>
+    <description>Recent content in Win系统 on 只收录实用工具与精品教程</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <atom:link href="https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/win%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>共享键鼠</title>
+      <link>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/win%E7%B3%BB%E7%BB%9F/%E5%85%B1%E4%BA%AB%E9%94%AE%E9%BC%A0/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/win%E7%B3%BB%E7%BB%9F/%E5%85%B1%E4%BA%AB%E9%94%AE%E9%BC%A0/index.html</guid>
+      <description> 满足需求 如果你希望仅用一套键鼠控制两台及以上的电脑，那么这款免费开源的工具Barrier你一定不能错过！可以在Windows、macOS和Linux之间共享同一套鼠标和键盘，不仅让你摆脱在不同键鼠间反复切换的烦恼，还能省下一笔外设钱。使用场景 以我为例，我需要在一台台式机和一台Mac笔记本电脑之间共享键鼠，两者都连接了同一Wifi网络，键盘是以前闲置的苹果妙控无线键盘，鼠标是路边捡的有线鼠标。键鼠都连在台式机上。即，我的目标是通过Barrier将台式机配置成服务端，Mac笔记本电脑配置成客户端。下载安装 ** 点我这里下载 Barrier安装包 ，分别有win系统和Mac系统的** 项目地址：https://github.com/debauchee/barrier
+配置Barrier Barrier是通过服务端和客户端的形式来管理共享键鼠的。你的键鼠连接的电脑就是服务端Server，需要共享使用它的键鼠的就是客户端Client。 在软件运行界面配置服务端 右上角进入更改设置 取消勾选开启SSL 重新启动服务 端口IP设置 置Barrier服务端与客户端的屏幕布局 使用感受 键鼠基本实现了无缝对接切换，速度很快。 可以实现跨设备文字复制粘贴。图片测试没有成功。 </description>
+    </item>
+  </channel>
+</rss>

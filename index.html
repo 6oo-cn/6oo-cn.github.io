@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.122.0">
+    <meta name="generator" content="Relearn 5.23.2+tip">
+    <meta name="description" content=" 软件,素材,教程,源码,">
+    <meta name="author" content=" 6号技师 ">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://example.org/images/logo.png">
+    <meta name="twitter:title" content="Markdown 语法 - 只收录实用工具与精品教程">
+    <meta name="twitter:description" content=" 软件,素材,教程,源码,">
+    <meta property="og:title" content="Markdown 语法 - 只收录实用工具与精品教程">
+    <meta property="og:description" content=" 软件,素材,教程,源码,">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.org/index.html">
+    <meta property="og:image" content="https://example.org/images/logo.png">
+    <meta property="og:site_name" content="只收录实用工具与精品教程">
+    <title>Markdown 语法 - 只收录实用工具与精品教程</title>
+    <link href="https://example.org/index.html" rel="alternate" hreflang="x-default">
+    <link href="https://example.org/index.html" rel="alternate" hreflang="zh">
+    <link href="https://example.org/en/index.html" rel="alternate" hreflang="en">
+    <link href="https://example.org/pir/index.html" rel="alternate" hreflang="art-pir">
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Markdown 语法 - 只收录实用工具与精品教程">
+    <link href="/index.print.html" rel="alternate" type="text/html" title="Markdown 语法 - 只收录实用工具与精品教程">
+    <link href="/images/favicon.svg?1708238489" rel="icon" type="image/svg+xml">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1708238489" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1708238489" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1708238489" rel="stylesheet">
+    <link href="/css/auto-complete.css?1708238489" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1708238489" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1708238489" rel="stylesheet">
+    <link href="/css/fonts.css?1708238489" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1708238489" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1708238489" rel="stylesheet">
+    <link href="/css/theme-neon.css?1708238489" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-neon.css?1708238489" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1708238489" rel="stylesheet">
+    <link href="/css/print.css?1708238489" rel="stylesheet" media="print">
+    <link href="/css/ie.css?1708238489" rel="stylesheet">
+    <script src="/js/url.js?1708238489"></script>
+    <script src="/js/variant.js?1708238489"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="/index.search.js";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      window.relearn = window.relearn || {};
+      window.relearn.baseUriFull='https:\/\/example.org/';
+      // variant stuff
+      window.relearn.themeVariantModifier='';
+      window.variants && variants.init( [ 'neon' ] );
+      // translations
+      window.T_Copy_to_clipboard = `复制到剪贴板`;
+      window.T_Copied_to_clipboard = `复制到剪贴板！`;
+      window.T_Copy_link_to_clipboard = `将链接复制到剪贴板`;
+      window.T_Link_copied_to_clipboard = `链接复制到剪贴板！`;
+      window.T_Reset_view = `重置视图`;
+      window.T_View_reset = `查看重置！`;
+      window.T_No_results_found = `找不到"{0}"的结果`;
+      window.T_N_results_found = `为"{0}"找到 {1} 个结果`;
+    </script>
+    <style>
+      #R-body img.bg-white {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="导航 (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="目录 (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#段落">段落</a></li>
+    <li><a href="#标题">标题</a></li>
+    <li><a href="#horizontal-rules">Horizontal Rules</a></li>
+    <li><a href="#text-markers">Text Markers</a>
+      <ul>
+        <li><a href="#bold">Bold</a></li>
+        <li><a href="#italics">Italics</a></li>
+        <li><a href="#strikethrough">Strikethrough</a></li>
+      </ul>
+    </li>
+    <li><a href="#text-substitution">Text substitution</a></li>
+    <li><a href="#lists">Lists</a>
+      <ul>
+        <li><a href="#unordered">Unordered</a></li>
+        <li><a href="#ordered">Ordered</a></li>
+        <li><a href="#tasks">Tasks</a></li>
+        <li><a href="#definitions">Definitions</a></li>
+      </ul>
+    </li>
+    <li><a href="#code">Code</a>
+      <ul>
+        <li><a href="#inline-code">Inline Code</a></li>
+        <li><a href="#indented-code-block">Indented Code Block</a></li>
+        <li><a href="#fenced-code-block">Fenced Code Block</a></li>
+      </ul>
+    </li>
+    <li><a href="#tables">Tables</a>
+      <ul>
+        <li><a href="#aligned-columns">Aligned Columns</a></li>
+      </ul>
+    </li>
+    <li><a href="#blockquotes">Blockquotes</a></li>
+    <li><a href="#links">Links</a>
+      <ul>
+        <li><a href="#autolink">Autolink</a></li>
+        <li><a href="#basic-link">Basic Link</a></li>
+        <li><a href="#link-with-tooltip">Link with Tooltip</a></li>
+        <li><a href="#link-references">Link References</a></li>
+        <li><a href="#footnotes">Footnotes</a></li>
+      </ul>
+    </li>
+    <li><a href="#images">Images</a>
+      <ul>
+        <li><a href="#basic-images">Basic Images</a></li>
+        <li><a href="#image-with-tooltip">Image with Tooltip</a></li>
+        <li><a href="#image-references">Image References</a></li>
+        <li><a href="#image-effects">Image Effects</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList">
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/index.print.html" title="打印整章 (CTRL&#43;ALT&#43;p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><span class="topbar-control"><i class="fa-fw fas fa-chevron-left"></i></span>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/index.html" title="个人笔记 (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="更多"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable home" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="home">
+            <header class="headline">
+<div class=" taxonomy-tags term-list cstyle  tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <ul>
+    <li><a class="term-link" href="/tags/markdown/index.html">Markdown</a></li>
+  </ul>
+</div>
+            </header>
+<h1 id="markdown-语法">Markdown 语法</h1>
+
+<p>让我们面对现实吧：为网络编写内容令人厌烦。WYSIWYG编辑器有助于缓解这项任务，但它们通常会导致可怕的代码，或者更糟糕的是，丑陋的网页。</p>
+<p><strong>Markdown</strong>是编写<strong>HTML</strong>的更好方法，没有通常随之而来的所有复杂性和丑陋。</p>
+<p>一些关键的好处是：</p>
+<ol>
+<li>Markdown学习简单，额外的字符很少，因此编写内容也更快。</li>
+<li>在Markdown中书写时出错的可能性更小。</li>
+<li>生成有效的HTML输出。</li>
+<li>将内容和视觉显示分开，这样您就不会弄乱网站的外观。</li>
+<li>写任何你喜欢的文本编辑器或Markdown应用程序。</li>
+<li>Markdown使用起来很愉快！</li>
+</ol>
+<p>《Markdown》的作者John Gruber是这样说的：</p>
+<blockquote>
+<p>Markdown格式语法的首要设计目标是使其尽可能具有可读性。其想法是，Markdown格式的文档应该是可按原样发布的，作为纯文本，而不会看起来像是用标记或格式说明标记的。虽然Markdown的语法受到了现有的几种文本到HTML过滤器的影响，但Markdown语法的最大灵感来源是纯文本电子邮件的格式.
+<!-- raw HTML omitted -->约翰·格鲁伯<!-- raw HTML omitted --></p>
+</blockquote>
+<p>不再拖延，让我们来看看Markdown的主要元素以及由此产生的HTML是什么样子的:</p>
+
+<div class="box notices cstyle tip">
+  <div class="box-label"><i class="fa-fw fas fa-lightbulb"></i> 提示</div>
+  <div class="box-content">
+
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --> Bookmark this page and the <a href="https://commonmark.org/help/" target="_blank">official Commonmark reference</a> for easy future reference!</p>
+</div>
+</div>
+<h2 id="段落">段落</h2>
+<p>在Markdown中，您的内容通常跨越整个可用文档宽度。这被称为块。在生成的文档中，块总是用空格与相邻的块隔开。
+任何不以特殊符号开头的文本都被写成普通的纯文本段落块，并且必须用空行与相邻的块隔开。</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p>Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus.</p>
+<p>Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.</p>
+</div>
+</div>
+<h2 id="标题">标题</h2>
+<p>一个好主意是使用标题和副标题来组织您的内容。
+Html&ndash;从<code>h1</code>到<code>h6</code>的标题，每一级都有一个<code>#</code>。
+在Hugo中，您通常不使用<code>h1</code>，因为这是由您的主题生成的，并且在一个文档中应该只有一个这样的元素。</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span># h1 Heading
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## h2 Heading
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">### h3 Heading
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#### h4 Heading
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">##### h5 Heading
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>###### h6 Heading</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<h1 id="h1-heading">h1 Heading</h1>
+<h2 id="h2-heading">h2 Heading</h2>
+<h3 id="h3-heading">h3 Heading</h3>
+<h4 id="h4-heading">h4 Heading</h4>
+<h5 id="h5-heading">h5 Heading</h5>
+<h6 id="h6-heading">h6 Heading</h6>
+</div>
+</div>
+<h2 id="horizontal-rules">Horizontal Rules</h2>
+<p>To further structure your content you can add horizontal rules. They create a &ldquo;thematic break&rdquo; between paragraph blocks. In Markdown, you can create it with three consecutive dashes <code>---</code>.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p>Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus.</p>
+<hr>
+<p>Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.</p>
+</div>
+</div>
+<h2 id="text-markers">Text Markers</h2>
+<h3 id="bold">Bold</h3>
+<p>You can show importance of a snippet of text with a heavier font-weight by enclosing it with two asterisks <code>**</code>.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>I am rendered with **bold text**</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p>I am rendered with <strong>bold text</strong></p>
+</div>
+</div>
+<h3 id="italics">Italics</h3>
+<p>You can emphasize a snippet of text with italics by enclosing it with underscores <code>_</code>.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>I am rendered with _italicized text_</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p>I am rendered with <em>italicized text</em></p>
+</div>
+</div>
+<h3 id="strikethrough">Strikethrough</h3>
+<p>In GFM (GitHub Flavored Markdown) you can do strikethroughs by enclosing text with two tildes <code>~~</code>.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>~~Strike through this text~~</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p><del>Strike through this text</del></p>
+</div>
+</div>
+<h2 id="text-substitution">Text substitution</h2>
+<p>This Markdown dialect supports an extension to combine multiple punctuation characters to single typographic entities. This will only be applied to text outside of code blocks or inline code.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>Double quotes <span style="color:#e6db74">`&#34;`</span> and single quotes <span style="color:#e6db74">`&#39;`</span> of enclosed text are replaced by <span style="font-style:italic">**</span>&#34;double curly quotes&#34;** and <span style="font-style:italic">**</span>&#39;single curly quotes&#39;**.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Double dashes <span style="color:#e6db74">`--`</span> and triple dashes <span style="color:#e6db74">`---`</span> are replaced by en-dash <span style="font-style:italic">**</span>--** and em-dash <span style="font-style:italic">**</span>---** entities.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Double arrows pointing left <span style="color:#e6db74">`&lt;&lt;`</span> or right <span style="color:#e6db74">`&gt;&gt;`</span> are replaced by arrow <span style="font-style:italic">**</span><span style="color:#960050;background-color:#1e0010">&lt;&lt;</span>** and <span style="font-style:italic">**</span>&gt;&gt;** entities.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Three consecutive dots <span style="color:#e6db74">`...`</span> are replaced by an ellipsis <span style="font-style:italic">**</span>...** entity.</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p>Double quotes <code>&quot;</code> and single quotes <code>'</code> of enclosed text are replaced by <strong>&ldquo;double curly quotes&rdquo;</strong> and <strong>&lsquo;single curly quotes&rsquo;</strong>.</p>
+<p>Double dashes <code>--</code> and triple dashes <code>---</code> are replaced by en-dash <strong>&ndash;</strong> and em-dash <strong>&mdash;</strong> entities.</p>
+<p>Double arrows pointing left <code>&lt;&lt;</code> or right <code>&gt;&gt;</code> are replaced by arrow <strong>&laquo;</strong> and <strong>&raquo;</strong> entities.</p>
+<p>Three consecutive dots <code>...</code> are replaced by an ellipsis <strong>&hellip;</strong> entity.</p>
+</div>
+</div>
+<h2 id="lists">Lists</h2>
+<h3 id="unordered">Unordered</h3>
+<p>You can write a list of items in which the order of the items does not explicitly matter.</p>
+<p>It is possible to nest lists by indenting an item for the next sublevel.</p>
+<p>You may use any of <code>-</code>, <code>*</code> or <code>+</code> to denote bullets for each list item but should not switch between those symbols inside one whole list.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Lorem ipsum dolor sit amet
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Consectetur adipiscing elit
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Vestibulum laoreet porttitor sem
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Ac tristique libero volutpat at
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Nulla volutpat aliquam velit
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Phasellus iaculis neque
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Purus sodales ultricies
+</span></span><span style="display:flex;"><span>- Faucibus porta lacus fringilla vel</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<ul>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Consectetur adipiscing elit
+<ul>
+<li>Vestibulum laoreet porttitor sem</li>
+<li>Ac tristique libero volutpat at</li>
+</ul>
+</li>
+<li>Nulla volutpat aliquam velit
+<ul>
+<li>Phasellus iaculis neque</li>
+<li>Purus sodales ultricies</li>
+</ul>
+</li>
+<li>Faucibus porta lacus fringilla vel</li>
+</ul>
+</div>
+</div>
+<h3 id="ordered">Ordered</h3>
+<p>You can create a list of items in which the order of items does explicitly matter.</p>
+<p>It is possible to nest lists by indenting an item for the next sublevel.</p>
+<p>Markdown will automatically number each of your items consecutively. This means, the order number you are providing is irrelevant.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> Lorem ipsum dolor sit amet
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">3.</span> Consectetur adipiscing elit
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">1.</span> Integer molestie lorem at massa
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">7.</span> Facilisis in pretium nisl aliquet
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">99.</span> Nulla volutpat aliquam velit
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">1.</span> Faucibus porta lacus fringilla vel
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">1.</span> Aenean sit amet erat nunc
+</span></span><span style="display:flex;"><span>17. Eget porttitor lorem</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<ol>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Consectetur adipiscing elit
+<ol>
+<li>Integer molestie lorem at massa</li>
+<li>Facilisis in pretium nisl aliquet</li>
+</ol>
+</li>
+<li>Nulla volutpat aliquam velit
+<ol>
+<li>Faucibus porta lacus fringilla vel</li>
+<li>Aenean sit amet erat nunc</li>
+</ol>
+</li>
+<li>Eget porttitor lorem</li>
+</ol>
+</div>
+</div>
+<h3 id="tasks">Tasks</h3>
+<p>In GFM (GitHub Flavored Markdown) you can add task lists resulting in checked or unchecked non-clickable items</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">- [x]</span> Basic Test
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">- [ ]</span> More Tests
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">- [x]</span> View
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">- [x]</span> Hear
+</span></span><span style="display:flex;"><span>  - [ ] Smell</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Basic Test</li>
+<li><input disabled="" type="checkbox"> More Tests
+<ul>
+<li><input checked="" disabled="" type="checkbox"> View</li>
+<li><input checked="" disabled="" type="checkbox"> Hear</li>
+<li><input disabled="" type="checkbox"> Smell</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<h3 id="definitions">Definitions</h3>
+<p>This Markdown dialect supports an extension to add definition lists. Definition lists are made of terms and definitions of these terms, much like in a dictionary.</p>
+<p>A definition list in Markdown Extra is made of a single-line term followed by a colon and the definition for that term. You can also associate more than one term to a definition.</p>
+<p>If you add empty lines around the definition terms, additional vertical space will be generated. Also multiple paragraphs are possible</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>Apple
+</span></span><span style="display:flex;"><span>: Pomaceous fruit of plants of the genus Malus in the family Rosaceae.
+</span></span><span style="display:flex;"><span>: An American computer company.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Orange
+</span></span><span style="display:flex;"><span>: The fruit of an evergreen tree of the genus Citrus.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  You can make juice out of it.
+</span></span><span style="display:flex;"><span>: A telecommunication company.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  You can&#39;t make juice out of it.</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<dl>
+<dt>Apple</dt>
+<dd>Pomaceous fruit of plants of the genus Malus in the family Rosaceae.</dd>
+<dd>An American computer company.</dd>
+<dt>Orange</dt>
+<dd>The fruit of an evergreen tree of the genus Citrus.
+<p>You can make juice out of it.</p>
+</dd>
+<dd>A telecommunication company.
+<p>You can&rsquo;t make juice out of it.</p>
+</dd>
+</dl>
+</div>
+</div>
+<h2 id="code">Code</h2>
+<h3 id="inline-code">Inline Code</h3>
+<p>Inline snippets of code can be wrapped with backticks <code>`</code>.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>In this example, <span style="color:#e6db74">`&lt;div&gt;&lt;/div&gt;`</span> is marked as code.</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p>In this example, <code>&lt;div&gt;&lt;/div&gt;</code> is marked as code.</p>
+</div>
+</div>
+<h3 id="indented-code-block">Indented Code Block</h3>
+<p>A simple code block can be generated by indenting several lines of code by at least two spaces.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>Be impressed by my advanced code:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    // Some comments
+</span></span><span style="display:flex;"><span>    line 1 of code
+</span></span><span style="display:flex;"><span>    line 2 of code
+</span></span><span style="display:flex;"><span>    line 3 of code</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p>Be impressed by my advanced code:</p>
+<pre><code>// Some comments
+line 1 of code
+line 2 of code
+line 3 of code
+</code></pre>
+</div>
+</div>
+<h3 id="fenced-code-block">Fenced Code Block</h3>
+<p>If you want to gain more control of your code block you can enclose your code by at least three backticks <code>```</code> a so called fence.</p>
+<p>In GFM (GitHub Flavored Markdown) you can also add a language specifier directly after the opening fence, <code>```js</code>, and syntax highlighting will automatically be applied according to the selected language in the rendered HTML.</p>
+<p>See  for additional documentation.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-plaintext" data-lang="plaintext"><span style="display:flex;"><span>```js
+</span></span><span style="display:flex;"><span>grunt.initConfig({
+</span></span><span style="display:flex;"><span>  assemble: {
+</span></span><span style="display:flex;"><span>    options: {
+</span></span><span style="display:flex;"><span>      assets: &#39;docs/assets&#39;,
+</span></span><span style="display:flex;"><span>      data: &#39;src/data/*.{json,yml}&#39;,
+</span></span><span style="display:flex;"><span>      helpers: &#39;src/custom-helpers.js&#39;,
+</span></span><span style="display:flex;"><span>      partials: [&#39;src/partials/**/*.{hbs,md}&#39;]
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    pages: {
+</span></span><span style="display:flex;"><span>      options: {
+</span></span><span style="display:flex;"><span>        layout: &#39;default.hbs&#39;
+</span></span><span style="display:flex;"><span>      },
+</span></span><span style="display:flex;"><span>      files: {
+</span></span><span style="display:flex;"><span>        &#39;./&#39;: [&#39;src/templates/pages/index.hbs&#39;]
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>};
+</span></span><span style="display:flex;"><span>```</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">grunt</span>.<span style="color:#a6e22e">initConfig</span>({
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">assemble</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">options</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">assets</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;docs/assets&#39;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">data</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;src/data/*.{json,yml}&#39;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">helpers</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;src/custom-helpers.js&#39;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">partials</span><span style="color:#f92672">:</span> [<span style="color:#e6db74">&#39;src/partials/**/*.{hbs,md}&#39;</span>]
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">pages</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">options</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">layout</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;default.hbs&#39;</span>
+</span></span><span style="display:flex;"><span>      },
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">files</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;./&#39;</span><span style="color:#f92672">:</span> [<span style="color:#e6db74">&#39;src/templates/pages/index.hbs&#39;</span>]
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>};</span></span></code></pre></div></div>
+</div>
+<h2 id="tables">Tables</h2>
+<p>In GFM (GitHub Flavored Markdown) you can create tables by adding pipes as dividers between each cell, and by adding a line of dashes (also separated by bars) beneath the header. Note that the pipes do not need to be vertically aligned.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Option | Description |
+</span></span><span style="display:flex;"><span>|--------|-------------|
+</span></span><span style="display:flex;"><span>| data   | path to data files to supply the data that will be passed into templates. |
+</span></span><span style="display:flex;"><span>| engine | engine to be used for processing templates. Handlebars is the default. |
+</span></span><span style="display:flex;"><span>| ext    | extension to be used for dest files. |</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>data</td>
+<td>path to data files to supply the data that will be passed into templates.</td>
+</tr>
+<tr>
+<td>engine</td>
+<td>engine to be used for processing templates. Handlebars is the default.</td>
+</tr>
+<tr>
+<td>ext</td>
+<td>extension to be used for dest files.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h3 id="aligned-columns">Aligned Columns</h3>
+<p>Adding a colon on the left and/or right side of the dashes below any heading will align the text for that column accordingly.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Option | Number | Description |
+</span></span><span style="display:flex;"><span>|-------:|:------:|:------------|
+</span></span><span style="display:flex;"><span>| data   | 1      | path to data files to supply the data that will be passed into templates. |
+</span></span><span style="display:flex;"><span>| engine | 2      | engine to be used for processing templates. Handlebars is the default. |
+</span></span><span style="display:flex;"><span>| ext    | 3      | extension to be used for dest files. |</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<table>
+<thead>
+<tr>
+<th style="text-align:right">Option</th>
+<th style="text-align:center">Number</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">data</td>
+<td style="text-align:center">1</td>
+<td style="text-align:left">path to data files to supply the data that will be passed into templates.</td>
+</tr>
+<tr>
+<td style="text-align:right">engine</td>
+<td style="text-align:center">2</td>
+<td style="text-align:left">engine to be used for processing templates. Handlebars is the default.</td>
+</tr>
+<tr>
+<td style="text-align:right">ext</td>
+<td style="text-align:center">3</td>
+<td style="text-align:left">extension to be used for dest files.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2 id="blockquotes">Blockquotes</h2>
+<p>For quoting blocks of content from another source within your document add <code>&gt;</code> before any text you want to quote.</p>
+<p>Blockquotes can also be nested.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue. Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="color:#66d9ef">&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef"></span><span style="font-style:italic">&gt; &gt; Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>&gt;
+</span></span><span style="display:flex;"><span>&gt; Mauris sit amet ligula egestas, feugiat metus tincidunt, luctus libero. Donec congue finibus tempor. Vestibulum aliquet sollicitudin erat, ut aliquet purus posuere luctus.</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<blockquote>
+<p>Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue. Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.</p>
+<blockquote>
+<p>Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.</p>
+</blockquote>
+<p>Mauris sit amet ligula egestas, feugiat metus tincidunt, luctus libero. Donec congue finibus tempor. Vestibulum aliquet sollicitudin erat, ut aliquet purus posuere luctus.</p>
+</blockquote>
+</div>
+</div>
+<h2 id="links">Links</h2>
+<h3 id="autolink">Autolink</h3>
+<p>In GFM (GitHub Flavored Markdown) absolute URLs will automatically be converted into a link.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>This is a link to https://example.com.</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p>This is a link to <a href="https://example.com" target="_blank">https://example.com</a>.</p>
+</div>
+</div>
+<h3 id="basic-link">Basic Link</h3>
+<p>You can explicitly define links in case you want to use non-absolute URLs or want to give different text.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[<span style="color:#f92672">Assemble</span>](<span style="color:#a6e22e">http://assemble.io</span>)</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p><a href="http://assemble.io" target="_blank">Assemble</a></p>
+</div>
+</div>
+<h3 id="link-with-tooltip">Link with Tooltip</h3>
+<p>For even further information, you can add an additional text, displayed in a tooltip on hovering over the link.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[<span style="color:#f92672">Upstage</span>](<span style="color:#a6e22e">https://github.com/upstage/ &#34;Visit Upstage!&#34;</span>)</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p><a href="https://github.com/upstage/" title="Visit Upstage!" target="_blank">Upstage</a></p>
+</div>
+</div>
+<h3 id="link-references">Link References</h3>
+<p>Links can be simplyfied for recurring reuse by using a reference ID to later define the URL location. This simplyfies writing if you want to use a link more than once in a document.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[Example][somelinkID]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[somelinkID]: https://example.com &#34;Go to example domain&#34;</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p><a href="https://example.com" title="Go to example domain" target="_blank">Example</a></p>
+</div>
+</div>
+<h3 id="footnotes">Footnotes</h3>
+<p>Footnotes work mostly like reference-style links. A footnote is made of two things, a marker in the text that will become a superscript number and a footnote definition that will be placed in a list of footnotes.</p>
+<p>Usually the list of footnotes will be shown at the end of your document. If we use a footnote in a notice box it will instead be listed at the end of its box.</p>
+<p>Footnotes can contain block elements, which means that you can put multiple paragraphs, lists, blockquotes and so on in a footnote. It works the same as for list items, just indent the following paragraphs by four spaces in the footnote definition.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>That&#39;s some text with a footnote[^1]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[^1]: And that&#39;s the footnote.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>That&#39;s some more text with a footnote.[^someid]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[^someid]:
+</span></span><span style="display:flex;"><span>    Anything of interest goes here.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    Blue light glows blue.</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p>That&rsquo;s some text with a footnote<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>That&rsquo;s some more text with a footnote.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>And that&rsquo;s the footnote.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Anything of interest goes here.</p>
+<p>Blue light glows blue.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<h2 id="images">Images</h2>
+<h3 id="basic-images">Basic Images</h3>
+<p>Images have a similar syntax to links but include a preceding exclamation mark.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">Spock</span>](<span style="color:#a6e22e">https://octodex.github.com/images/spocktocat.png</span>)</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p><a href="#R-image-e7a86b3b99a01915fe040772515ed653" class="lightbox-link"><img src="https://octodex.github.com/images/spocktocat.png?width=20vw" alt="Spock" class="figure-image border lightbox noshadow" style="height: auto; width: 20vw;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e7a86b3b99a01915fe040772515ed653"><img src="https://octodex.github.com/images/spocktocat.png?width=20vw" alt="Spock" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+</div>
+</div>
+<h3 id="image-with-tooltip">Image with Tooltip</h3>
+<p>Like links, images can also be given a tooltip.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">Picard</span>](<span style="color:#a6e22e">https://octodex.github.com/images/jean-luc-picat.jpg &#34;Jean Luc Picard&#34;</span>)</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p><a href="#R-image-7e0f03d9d6134a60f00149ce86fdb0a6" class="lightbox-link"><img src="https://octodex.github.com/images/jean-luc-picat.jpg?width=20vw" alt="Picard" title="Jean Luc Picard" class="figure-image border lightbox noshadow" style="height: auto; width: 20vw;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7e0f03d9d6134a60f00149ce86fdb0a6"><img src="https://octodex.github.com/images/jean-luc-picat.jpg?width=20vw" alt="Picard" title="Jean Luc Picard" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+</div>
+</div>
+<h3 id="image-references">Image References</h3>
+<p>Images can also be linked by reference ID to later define the URL location. This simplyfies writing if you want to use an image more than once in a document.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![La Forge][laforge]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[laforge]: https://octodex.github.com/images/trekkie.jpg &#34;Geordi La Forge&#34;</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p><a href="#R-image-8ed61786f81be67b0deb885b26c8cef5" class="lightbox-link"><img src="https://octodex.github.com/images/trekkie.jpg?width=20vw" alt="La Forge" title="Geordi La Forge" class="figure-image border lightbox noshadow" style="height: auto; width: 20vw;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8ed61786f81be67b0deb885b26c8cef5"><img src="https://octodex.github.com/images/trekkie.jpg?width=20vw" alt="La Forge" title="Geordi La Forge" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+</div>
+</div>
+<h3 id="image-effects">Image Effects</h3>
+<p>This theme allows additional non-standard formatting by setting query parameter at the end of the image URL. The default  thru your <code>hugo.toml</code> or frontmatter parameter.</p>
+<h4 id="resizing">Resizing</h4>
+<p>Add query parameter <code>width</code> and/or <code>height</code> to the link image to resize the image. Values are CSS values (default is <code>auto</code>).</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">Minion</span>](<span style="color:#a6e22e">https://octodex.github.com/images/minion.png?width=20vw</span>)</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p><a href="#R-image-45474c3492391a6d3ada28233efca8f5" class="lightbox-link"><img src="https://octodex.github.com/images/minion.png?width=20vw" alt="Minion" class="figure-image border lightbox noshadow" style="height: auto; width: 20vw;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-45474c3492391a6d3ada28233efca8f5"><img src="https://octodex.github.com/images/minion.png?width=20vw" alt="Minion" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+</div>
+</div>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">Minion</span>](<span style="color:#a6e22e">https://octodex.github.com/images/minion.png?height=50px</span>)</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p><a href="#R-image-73cb34d934a5b587eff86925d8a271c2" class="lightbox-link"><img src="https://octodex.github.com/images/minion.png?height=50px" alt="Minion" class="figure-image border lightbox noshadow" style="height: 50px; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-73cb34d934a5b587eff86925d8a271c2"><img src="https://octodex.github.com/images/minion.png?height=50px" alt="Minion" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+</div>
+</div>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">Minion</span>](<span style="color:#a6e22e">https://octodex.github.com/images/minion.png?height=50px&amp;width=40vw</span>)</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p><a href="#R-image-ca6bd62e9c9fb308b8fbbde40cdb90aa" class="lightbox-link"><img src="https://octodex.github.com/images/minion.png?height=50px&amp;width=40vw" alt="Minion" class="figure-image border lightbox noshadow" style="height: 50px; width: 40vw;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ca6bd62e9c9fb308b8fbbde40cdb90aa"><img src="https://octodex.github.com/images/minion.png?height=50px&amp;width=40vw" alt="Minion" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+</div>
+</div>
+<h4 id="css-classes">CSS Classes</h4>
+<p>Add a query parameter <code>classes</code> to the link image to add CSS classes. Add some of the predefined values or even define your own in your CSS.</p>
+<h5 id="shadow">Shadow</h5>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">Spidertocat</span>](<span style="color:#a6e22e">https://octodex.github.com/images/spidertocat.png?classes=shadow</span>)</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p><a href="#R-image-93ff9bf7a25f0a8a561815aae6250356" class="lightbox-link"><img src="https://octodex.github.com/images/spidertocat.png?width=20vw&amp;classes=shadow,noborder" alt="Spidertocat" class="figure-image border lightbox noborder shadow" style="height: auto; width: 20vw;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-93ff9bf7a25f0a8a561815aae6250356"><img src="https://octodex.github.com/images/spidertocat.png?width=20vw&amp;classes=shadow,noborder" alt="Spidertocat" class="lightbox-image border lightbox noborder shadow" loading="lazy"></a></p>
+</div>
+</div>
+<h5 id="border">Border</h5>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">DrOctocat</span>](<span style="color:#a6e22e">https://octodex.github.com/images/droctocat.png?classes=border</span>)</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p><a href="#R-image-b0f085221edc4464f3fa8cf14fe7a1d4" class="lightbox-link"><img src="https://octodex.github.com/images/droctocat.png?width=20vw&amp;classes=border,noshadow" alt="DrOctocat" class="figure-image border lightbox noshadow noshadow" style="height: auto; width: 20vw;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b0f085221edc4464f3fa8cf14fe7a1d4"><img src="https://octodex.github.com/images/droctocat.png?width=20vw&amp;classes=border,noshadow" alt="DrOctocat" class="lightbox-image border lightbox noshadow noshadow" loading="lazy"></a></p>
+</div>
+</div>
+<h5 id="left">Left</h5>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">Supertocat</span>](<span style="color:#a6e22e">https://octodex.github.com/images/okal-eltocat.jpg?classes=left</span>)</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p><a href="#R-image-222487e21a4ca1f4487959df9453d7b7" class="lightbox-link"><img src="https://octodex.github.com/images/okal-eltocat.jpg?width=20vw&amp;classes=left" alt="Supertocat" class="figure-image border left lightbox noshadow" style="height: auto; width: 20vw;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-222487e21a4ca1f4487959df9453d7b7"><img src="https://octodex.github.com/images/okal-eltocat.jpg?width=20vw&amp;classes=left" alt="Supertocat" class="lightbox-image border left lightbox noshadow" loading="lazy"></a></p>
+</div>
+</div>
+<h5 id="right">Right</h5>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">Riddlocat</span>](<span style="color:#a6e22e">https://octodex.github.com/images/riddlocat.jpg?classes=right</span>)</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p><a href="#R-image-0b5ef6f4c665983e84ff54b8e67963df" class="lightbox-link"><img src="https://octodex.github.com/images/riddlocat.jpg?width=20vw&amp;classes=right" alt="Riddlocat" class="figure-image border lightbox right noshadow" style="height: auto; width: 20vw;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0b5ef6f4c665983e84ff54b8e67963df"><img src="https://octodex.github.com/images/riddlocat.jpg?width=20vw&amp;classes=right" alt="Riddlocat" class="lightbox-image border lightbox right noshadow" loading="lazy"></a></p>
+</div>
+</div>
+<h5 id="inline">Inline</h5>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">Spidertocat</span>](<span style="color:#a6e22e">https://octodex.github.com/images/spidertocat.png?classes=inline</span>)
+</span></span><span style="display:flex;"><span>![<span style="color:#f92672">DrOctocat</span>](<span style="color:#a6e22e">https://octodex.github.com/images/droctocat.png?classes=inline</span>)
+</span></span><span style="display:flex;"><span>![<span style="color:#f92672">Supertocat</span>](<span style="color:#a6e22e">https://octodex.github.com/images/okal-eltocat.jpg?classes=inline</span>)
+</span></span><span style="display:flex;"><span>![<span style="color:#f92672">Riddlocat</span>](<span style="color:#a6e22e">https://octodex.github.com/images/riddlocat.jpg?classes=inline</span>)</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p><a href="#R-image-739434f0f3742ea74d3b64e3294c56b5" class="lightbox-link"><img src="https://octodex.github.com/images/spidertocat.png?width=10vw&amp;classes=inline" alt="Spidertocat" class="figure-image border inline lightbox noshadow" style="height: auto; width: 10vw;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-739434f0f3742ea74d3b64e3294c56b5"><img src="https://octodex.github.com/images/spidertocat.png?width=10vw&amp;classes=inline" alt="Spidertocat" class="lightbox-image border inline lightbox noshadow" loading="lazy"></a>
+<a href="#R-image-4b311676237d15a12961e01a97fedb6e" class="lightbox-link"><img src="https://octodex.github.com/images/droctocat.png?width=10vw&amp;classes=inline" alt="DrOctocat" class="figure-image border inline lightbox noshadow" style="height: auto; width: 10vw;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4b311676237d15a12961e01a97fedb6e"><img src="https://octodex.github.com/images/droctocat.png?width=10vw&amp;classes=inline" alt="DrOctocat" class="lightbox-image border inline lightbox noshadow" loading="lazy"></a>
+<a href="#R-image-b8dd9219617a4500f5cd2b0d0035b569" class="lightbox-link"><img src="https://octodex.github.com/images/okal-eltocat.jpg?width=10vw&amp;classes=inline" alt="Supertocat" class="figure-image border inline lightbox noshadow" style="height: auto; width: 10vw;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b8dd9219617a4500f5cd2b0d0035b569"><img src="https://octodex.github.com/images/okal-eltocat.jpg?width=10vw&amp;classes=inline" alt="Supertocat" class="lightbox-image border inline lightbox noshadow" loading="lazy"></a>
+<a href="#R-image-1eadd1dc6ec9fbbd37a4af8616ecfe69" class="lightbox-link"><img src="https://octodex.github.com/images/riddlocat.jpg?width=10vw&amp;classes=inline" alt="Riddlocat" class="figure-image border inline lightbox noshadow" style="height: auto; width: 10vw;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1eadd1dc6ec9fbbd37a4af8616ecfe69"><img src="https://octodex.github.com/images/riddlocat.jpg?width=10vw&amp;classes=inline" alt="Riddlocat" class="lightbox-image border inline lightbox noshadow" loading="lazy"></a></p>
+</div>
+</div>
+<h5 id="combination">Combination</h5>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">X-tocat</span>](<span style="color:#a6e22e">https://octodex.github.com/images/xtocat.jpg?classes=shadow,border,left</span>)</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p><a href="#R-image-d7d67d1feb65b0b166432370c9786fe8" class="lightbox-link"><img src="https://octodex.github.com/images/xtocat.jpg?width=20vw&amp;classes=shadow,border,left" alt="X-tocat" class="figure-image border left lightbox shadow" style="height: auto; width: 20vw;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d7d67d1feb65b0b166432370c9786fe8"><img src="https://octodex.github.com/images/xtocat.jpg?width=20vw&amp;classes=shadow,border,left" alt="X-tocat" class="lightbox-image border left lightbox shadow" loading="lazy"></a></p>
+</div>
+</div>
+<h4 id="lightbox">Lightbox</h4>
+<p>Add the query parameter <code>lightbox=false</code> to the image link to disable the lightbox.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">Homercat</span>](<span style="color:#a6e22e">https://octodex.github.com/images/homercat.png?lightbox=false</span>)</span></span></code></pre></div>
+<div class="box notices cstyle secondary">
+  <div class="box-label"><i class="fa-fw fas fa-eye"></i> Result</div>
+  <div class="box-content">
+
+<p><img src="https://octodex.github.com/images/homercat.png?width=20vw&amp;lightbox=false" alt="Homercat" class="figure-image border nolightbox noshadow" style="height: auto; width: 20vw;" loading="lazy"></p>
+</div>
+</div>
+
+<div class="box notices cstyle note">
+  <div class="box-label"><i class="fa-fw fas fa-exclamation-circle"></i> 注释</div>
+  <div class="box-content">
+
+<p>If you want to wrap an image in a link and <code>lightbox=true</code> is your default setting, you have to explicitly disable the lightbox to avoid it to hijacking your link like:</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[<span style="color:#f92672">![Homercat</span>](<span style="color:#a6e22e">https://octodex.github.com/images/homercat.png?lightbox=false</span>)](https://octodex.github.com/#homercat)</span></span></code></pre></div><p><a href="https://octodex.github.com/#homercat" target="_blank"><img src="https://octodex.github.com/images/homercat.png?width=20vw&amp;lightbox=false" alt="Homercat" class="figure-image border nolightbox noshadow" style="height: auto; width: 20vw;" loading="lazy"></a></p>
+</div>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation showVisitedLinks">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <style>
+            #R-logo svg,
+            #R-logo svg * {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+              fill: #282828 !important;
+              fill: var(--MENU-SECTIONS-BG-color) !important;
+              opacity: .945;
+            }
+            a#R-logo {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+              font-family: 'Work Sans', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
+              font-size: 1.875rem;
+              font-weight: 300;
+              margin-top: -.8125rem;
+              max-width: 60%;
+              text-transform: uppercase;
+              width: 14.125rem;
+              white-space: nowrap;
+            }
+            a#R-logo:hover {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+            }
+            #R-logo svg {
+              margin-bottom: -1.25rem;
+              margin-inline-start: -1.47rem;
+              margin-inline-end: .5rem;
+              width: 40.5%;
+            }
+            @media only all and (max-width: 59.999rem) {
+              a#R-logo {
+                font-size: 1.5625rem;
+                margin-top: -.1875rem;
+              }
+              #R-logo svg {
+                margin-bottom: -.75rem;
+                margin-inline-start: -1.47rem;
+                margin-inline-end: .5rem;
+              }
+            }
+            @media all and (-ms-high-contrast:none) {
+              /* IE11s understanding of positioning is weird at best */
+              a#R-logo {
+                margin-top: -3.625rem;
+              }
+              #R-logo svg {
+                margin-bottom: -3.875rem;
+                margin-left: -1.47rem;
+                margin-right: .5rem;
+              }
+            }
+            @media only all and (-ms-high-contrast:none) and (max-width: 59.999rem) {
+              #R-logo svg {
+                margin-left: -1.47rem;
+                margin-right: .5rem;
+              }
+            }
+          </style>
+          <a id="R-logo" href="/index.html">
+            <svg class="icon" width="64px" height="64.00px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <path d="M811.65 340.35A286.15 286.15 0 0 0 608 256h-68.77L575 104v-0.08l0.14-0.59A32 32 0 0 0 544 64H288a32 32 0 0 0-31.15 24.67l-128 544A32.27 32.27 0 0 0 128 640v32a288 288 0 0 0 288 288h192a288 288 0 0 0 288-288V544a286.15 286.15 0 0 0-84.35-203.65zM313.34 128h62.26L256.85 632.67A32.27 32.27 0 0 0 256 640v32a32 32 0 0 0 32 32h256a95.73 95.73 0 0 0 27.87-4.13A96.17 96.17 0 0 1 480 768H288a96.11 96.11 0 0 1-96-96v-28.29zM544 576a32 32 0 0 1 0 64h-95.17l15.09-64zM416 896a223.29 223.29 0 0 1-159.77-67.17A160.64 160.64 0 0 0 288 832h192c88.22 0 160-71.78 160-160v-64a95.73 95.73 0 0 0-4.13-27.87A96.17 96.17 0 0 1 704 672c0 123.51-100.49 224-224 224z m256-9.32q6-5.34 11.67-11A286.15 286.15 0 0 0 768 672c0-88.22-71.78-160-160-160H438.59a32 32 0 0 0-31.15 24.66L383.07 640h-62.2l120.47-512h62.26l-66 280.67A32 32 0 0 0 468.71 448H608c123.51 0 224 100.49 224 224 0 101.29-67.58 187.08-160 214.68z m139.65-418.33A286.15 286.15 0 0 0 608 384h-98.89l15.06-64H608c101.29 0 187.08 67.58 214.68 160q-5.34-5.93-11.03-11.65z" fill="#707070" />
+              </svg>六 窝 窝
+          </a>
+        </div>
+        <form action="/search.html" method="get"><div class="searchbox default-animation">
+          <button class="search-detail" type="submit" title="搜索 (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+          <label class="a11y-only" for="R-search-by">搜索</label>
+          <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="搜索...">
+          <button class="search-clear" type="button" data-search-clear="" title="清除搜索"><i class="fas fa-times" title="清除搜索"></i></button>
+        </div></form>
+        <script>
+          var contentLangs=['zh'];
+        </script>
+        <script src="/js/auto-complete.js?1708238489" defer></script>
+        <script src="/js/lunr/lunr.min.js?1708238489" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1708238489" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1708238489" defer></script>
+        <script src="/js/lunr/lunr.zh.min.js?1708238489" defer></script>
+        <script src="/js/search.js?1708238489" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <ul>
+          <li><a class="padding" href="/index.html"><i class='fas fa-home'></i> 主页</a></li>
+        </ul>
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+          <li data-nav-id="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/index.html" class=""><input type="checkbox" id="R-section-a7e1e43c79fc3a2e05295ae4bf85f804" aria-controls="R-subsections-a7e1e43c79fc3a2e05295ae4bf85f804"><label for="R-section-a7e1e43c79fc3a2e05295ae4bf85f804"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">子菜单个人笔记</span></label><a class="padding" href="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/index.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">1.</b> 个人笔记<i class="fas fa-check read-icon"></i></a><ul id="R-subsections-a7e1e43c79fc3a2e05295ae4bf85f804" class="morespace collapsible-menu">
+          <li data-nav-id="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/hugo-%E7%AC%94%E8%AE%B0/index.html" class="alwaysopen"><input type="checkbox" id="R-section-cc6953ddf89e5c9e748b5aabe2fb71fd" aria-controls="R-subsections-cc6953ddf89e5c9e748b5aabe2fb71fd" checked><label for="R-section-cc6953ddf89e5c9e748b5aabe2fb71fd"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">子菜单HUGO 笔记</span></label><a class="padding" href="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/hugo-%E7%AC%94%E8%AE%B0/index.html">HUGO 笔记<i class="fas fa-check read-icon"></i></a><ul id="R-subsections-cc6953ddf89e5c9e748b5aabe2fb71fd" class="morespace collapsible-menu">
+          <li data-nav-id="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/hugo-%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF/index.html" class=""><a class="padding" href="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/hugo-%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF/index.html">前端设置<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/hugo-%E7%AC%94%E8%AE%B0/%E9%A1%B5%E9%9D%A2%E5%B1%82%E7%BA%A7/index.html" class=""><a class="padding" href="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/hugo-%E7%AC%94%E8%AE%B0/%E9%A1%B5%E9%9D%A2%E5%B1%82%E7%BA%A7/index.html">页面组织<i class="fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/win%E7%B3%BB%E7%BB%9F/index.html" class="alwaysopen"><input type="checkbox" id="R-section-1b44039aec68ebb8ba4ba5287cd3277e" aria-controls="R-subsections-1b44039aec68ebb8ba4ba5287cd3277e" checked><label for="R-section-1b44039aec68ebb8ba4ba5287cd3277e"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">子菜单Win系统</span></label><a class="padding" href="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/win%E7%B3%BB%E7%BB%9F/index.html">Win系统<i class="fas fa-check read-icon"></i></a><ul id="R-subsections-1b44039aec68ebb8ba4ba5287cd3277e" class="morespace collapsible-menu">
+          <li data-nav-id="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/win%E7%B3%BB%E7%BB%9F/%E5%85%B1%E4%BA%AB%E9%94%AE%E9%BC%A0/index.html" class=""><a class="padding" href="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/win%E7%B3%BB%E7%BB%9F/%E5%85%B1%E4%BA%AB%E9%94%AE%E9%BC%A0/index.html">共享键鼠<i class="fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/mac%E6%8A%80%E5%B7%A7/index.html" class=""><a class="padding" href="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/mac%E6%8A%80%E5%B7%A7/index.html">Mac技巧<i class="fas fa-check read-icon"></i></a></li>
+          <li data-nav-id="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/pycharm%E4%B8%93%E4%B8%9A%E7%89%88%E6%BF%80%E6%B4%BB/index.html" class=""><a class="padding" href="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/pycharm%E4%B8%93%E4%B8%9A%E7%89%88%E6%BF%80%E6%B4%BB/index.html">PyCharm专业版激活<i class="fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/%E5%85%8D%E8%B4%B9%E5%B7%A5%E5%85%B7/index.html" class=""><input type="checkbox" id="R-section-0f9cdb346a169e6ce094ee82129f59fb" aria-controls="R-subsections-0f9cdb346a169e6ce094ee82129f59fb"><label for="R-section-0f9cdb346a169e6ce094ee82129f59fb"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">子菜单免费工具</span></label><a class="padding" href="/%E5%85%8D%E8%B4%B9%E5%B7%A5%E5%85%B7/index.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">2.</b> 免费工具<i class="fas fa-check read-icon"></i></a><ul id="R-subsections-0f9cdb346a169e6ce094ee82129f59fb" class="morespace collapsible-menu">
+          <li data-nav-id="/%E5%85%8D%E8%B4%B9%E5%B7%A5%E5%85%B7/%E5%85%8D%E8%B4%B9%E5%B7%A5%E5%85%B7%E5%90%88%E9%9B%86/%E5%85%8D%E8%B4%B9%E5%B7%A5%E5%85%B7%E5%90%88%E9%9B%86/index.html" class=""><a class="padding" href="/%E5%85%8D%E8%B4%B9%E5%B7%A5%E5%85%B7/%E5%85%8D%E8%B4%B9%E5%B7%A5%E5%85%B7%E5%90%88%E9%9B%86/%E5%85%8D%E8%B4%B9%E5%B7%A5%E5%85%B7%E5%90%88%E9%9B%86/index.html">免费工具合集<i class="fas fa-check read-icon"></i></a></li></ul></li>
+          <li data-nav-id="/%E8%B5%84%E6%BA%90%E7%BD%91%E7%AB%99/index.html" class=""><input type="checkbox" id="R-section-091191ba99d7709d28bb792f67b3c8ef" aria-controls="R-subsections-091191ba99d7709d28bb792f67b3c8ef"><label for="R-section-091191ba99d7709d28bb792f67b3c8ef"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">子菜单资源网站</span></label><a class="padding" href="/%E8%B5%84%E6%BA%90%E7%BD%91%E7%AB%99/index.html"><b style="display: inline-block; font-weight: 200; padding-left: .3rem; text-align: left; width: 1.1rem;">3.</b> 资源网站<i class="fas fa-check read-icon"></i></a><ul id="R-subsections-091191ba99d7709d28bb792f67b3c8ef" class="morespace collapsible-menu">
+          <li data-nav-id="/%E8%B5%84%E6%BA%90%E7%BD%91%E7%AB%99/%E8%B5%84%E6%BA%90%E7%BD%91%E7%AB%99%E5%90%88%E9%9B%86/index.html" class=""><a class="padding" href="/%E8%B5%84%E6%BA%90%E7%BD%91%E7%AB%99/%E8%B5%84%E6%BA%90%E7%BD%91%E7%AB%99%E5%90%88%E9%9B%86/index.html">资源网站合集<i class="fas fa-check read-icon"></i></a></li></ul></li>
+          </ul>
+        </div>
+        <div id="R-shortcuts">
+          <div class="nav-title padding">更多</div>
+          <ul class="space">
+            <li><a class="padding" href="/index.html"><i class='fab fa-fw fa-qq'></i> 博客</a></li>
+            <li><a class="padding" href="/index.html"><i class='fas fa-fw fa-camera'></i> 展示</a></li>
+            <li><a class="padding" href="/index.html"><i class='fas fa-fw fa-bullhorn'></i> 信用</a></li>
+            <li><a class="padding" href="/tags/index.html"><i class='fas fa-fw fa-tags'></i> 标签</a></li>
+            <li><a class="padding" href="/categories/index.html"><i class='fas fa-fw fa-layer-group'></i> 分类</a></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVisitedLinks showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVisitedLinks showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fas fa-language fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">语言</label>
+                    <select id="R-select-language" onchange="location = baseUri + this.value;">
+                      <option id="R-zh" value="/index.html" lang="zh" selected>简体中文</option>
+                      <option id="R-en" value="/en/index.html" lang="en">English</option>
+                      <option id="R-pir" value="/pir/index.html" lang="art-pir">Arrr! ☠ Pirrrates ☠</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fas fa-paint-brush fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">主题</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-neon" value="neon" selected>霓虹</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks showVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fas fa-history fa-fw"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">清理浏览记录</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+	    <p>6号技师 <a href="/" title="love"><i class="fas fa-heart"></i></a> by <a href="/">素材仓库</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1708238489" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1708238489" defer></script>
+    <script src="/js/theme.js?1708238489" defer></script>
+  </body>
+</html>

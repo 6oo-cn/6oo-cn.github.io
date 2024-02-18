@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>个人笔记 on 只收录实用工具与精品教程</title>
+    <link>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/index.html</link>
+    <description>Recent content in 个人笔记 on 只收录实用工具与精品教程</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 13 Feb 2024 03:39:41 +0800</lastBuildDate>
+    <atom:link href="https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HUGO 笔记</title>
+      <link>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/hugo-%E7%AC%94%E8%AE%B0/index.html</link>
+      <pubDate>Tue, 13 Feb 2024 03:39:41 +0800</pubDate>
+      <guid>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/hugo-%E7%AC%94%E8%AE%B0/index.html</guid>
+      <description>创建页面及文章 首先使用以下命令创建章节 hugo new --kind chapter 个人笔记/_index.md然后，在之前创建的章节中创建内容页面。以下是在本章中创建内容的两种方法
+hugo new 个人笔记/文章标题.mdhugo new 个人笔记/文章分类/_index.md更改Favicon 如果您的favicon是SVG、PNG或ICO，只需将您的图像放在您网站的static/images/目录并命名它favicon.svg，favicon.png
+更换徽标 在网站的layouts/partials/logo.html中创建新文件。然后写任何你想要的HTML。您可以使用一个imgHTML标签并引用在_static_ folder下创建的图像，或者您可以粘贴一个SVG定义！
+注释 徽标的大小将自动适应。
+部分 Relearn主题已通过定义多个 partials-部分
+In themes/hugo-theme-relearn/layouts/partials/, 您将找到为此主题定义的所有部分。如果您需要覆盖某些内容，请不要直接更改代码。相反，请关注此页面. 你会在&amp;hellip;中创建一个新的部分layouts/partials您本地项目的文件夹。这部分将具有优先权。
+这个主题定义了以下部分：
+header.html: 页面的标题。查看 output-formats - 输出格式 footer.html: 页面的页脚。查看 output-formats - 输出格式 body.html: 页面正文。身体可能包含一件或多件物品。查看输出格式 output-formats article.html: 单篇文章的输出，可以包含围绕您内容的元素。查看输出格式 output-formats menu.html: 左侧菜单。无意被覆盖 search.html: 搜索框。无意被覆盖 custom-header.html: 页面中的自定义标题。意味着在添加CSS导入时被覆盖。不要忘记在文件中包含 style HTML标签指令。 custom-footer.html: 页面中的自定义页脚。意味着在添加JavaScript时被覆盖。别忘了包括javascript文件中的HTML标签指令。 favicon.html: 网站图标 heading.html: 侧边配置，以改变页面标题标题。 heading-pre.html: 侧边配置，以附加到页面标题标题。如果你忽略了这一点，你有责任考虑页面的headingPre设置。 heading-post.html: 侧边配置，以附加到页面标题标题。如果您忽略了这一点，您有责任考虑页面的headingPost设置。 logo.html: 徽标，在左上角 meta.html: HTML元标记，如果您想更改默认行为 menu-pre.html: 侧边配置，以先于菜单项。如果您覆盖此，您有责任获取该页面的menuPre考虑在内。 menu-post.html: 侧边配置，以附加到菜单项。如果您覆盖此，您有责任获取该页面的menuPost考虑在内。 menu-footer.html: 左侧菜单的页脚 toc.</description>
+    </item>
+    <item>
+      <title>Win系统</title>
+      <link>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/win%E7%B3%BB%E7%BB%9F/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/win%E7%B3%BB%E7%BB%9F/index.html</guid>
+      <description>Windos操作系统的各种使用小技巧</description>
+    </item>
+    <item>
+      <title>Mac技巧</title>
+      <link>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/mac%E6%8A%80%E5%B7%A7/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/mac%E6%8A%80%E5%B7%A7/index.html</guid>
+      <description>2019款16寸Mac Book Pro 显卡更新教程 一：官网下载驱动 根据mac的显卡分类选择驱动 查看驱动下载位置 检查当前已安装驱动 下载第三方显卡驱动，www.bootcampdrivers.com 红色游戏，蓝色专业 二：卸载驱动 进入安全模式，win+R输入msconfig,勾选最下面；有选择的 启动 → 引导 → 安全引导 → 确定 → 重启 使用DDU彻底卸载当前驱动 DDU软件在第三方驱动目录里面；两次仅清除，一次清除并重启 退出安全模式 win+R 输入msconfig，选择引导，取消安全引导，确定，重启 三：安装驱动 安装官方驱动，打开官方驱动下载目录，双击Setup.exe，等待安装，点完成；不重启 通过设备管理器更新官方驱动为第三方驱动 打开设置 →系统 → 关于 → 设备管理器 → 显示适配器 → 更新驱动程序 → 浏览驱动程序 → 浏览以查找驱动程序 → 勾选包括子文件夹 → 完成重启 安装第三方Radeon Software 打开第三方驱动下载目录，双击Setup.exe,附加选项点开禁止勾选恢复出厂设置 不然就要重头再来一次！ Full lnstsll , Min lnstsll或者Driver Only，使用推荐Full lnstsll，等待安装完成 检查更新后的驱动 鼠标右键，或者状态栏下面会显示显卡图标打开设置，游戏下一步 安装完成 </description>
+    </item>
+    <item>
+      <title>PyCharm专业版激活</title>
+      <link>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/pycharm%E4%B8%93%E4%B8%9A%E7%89%88%E6%BF%80%E6%B4%BB/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/pycharm%E4%B8%93%E4%B8%9A%E7%89%88%E6%BF%80%E6%B4%BB/index.html</guid>
+      <description>前期准备下载工具&amp;raquo;PyCharm 23.3.2 &amp;amp; 激活工具 &amp;amp; 激活码
+最新图文教程：2023.3.2 IDEA激活破解教程 一：下载安装pycharm 先去官网下载，我这里下载的是最新版本的2023.3.2，测试过2023最新版本以及2022版本以上的版本都没问题。 二：然后打开；提示要输入激活码，先关闭应用，等下再打开 三：下载激活工具 打开下载好的激活包（下载后记得不要删除和移动，然后安装的路径尽量不要带中文路径、删掉就会失效的） windows系统的样子 Mac系统的样子 打开scripts.文件夹 四：windows系统的pycharm激活 先执行uninstall&amp;ndash;all-users.vbs,直接双击打开，此步骤是为了防止之前有过激活信息，确保当前环境变量下没有激活工具的变量信息，可先执行卸载脚本在再进行后面的激活操作，避免激活失败。 然后再执行 install-current-user.vbs 直接双击打开即可 这里需要等待10秒左右才会出现Done弹框；才是成功；然后再打开pycharm输入激活码即可 五：Mac系统的pycharm激活 先打开终端
+直接将 uninstall.sh 拖到终端 ;出现Done说明成功；此步骤是一键帮你去掉以前所激活过留下的东西；解决 key is invalid的问题；防止激活失败
+接着将 install.sh 拖到终端;与上面同理；出现 Done ； the kill xxxx 说明成功
+sh xxxx 运行下 .sh文件（记得sh后面加上空格）
+重新打开 pycharm ；输入激活码即可
+六：激活演示 输入激活码 Licensed 即表示激活成功；点击 continue 关掉窗口就好了 成功激活演示 2：出现 key is invalid （密钥无效）
+请先重启下Pycharm,再输入激活码，如仍未解决，清参考下面的全家桶激活错误指导或者加最下方技术微信，帮你处理 激活失败参考：全家桶激活错误指导 错误一：你没有解压文件夹就直接点了执行 错误二：key is invalid 激活工具未下载或者没有配置，返回查看教程，激活码无法单独使用，必须配合激活工具一起使用
+激活工具的路径配置有误，请核对
+配置完激活工具，未重启IDE开发工具，正常是不用的，避免你在配置的时候就打开了IDE,最好还是重启下，如果工具已经启动，配置完插件之后，请务必重启一下工具再使用激活码
+登录了账号，如果你登录了自己未授权订阅的账号，请退出，重新激活
+受到其他激活工具的影响，jetbrāins是允许安装多版本的，如果你有安装其他版本的其他激活工具，可能会互相干扰，请核对</description>
+    </item>
+  </channel>
+</rss>

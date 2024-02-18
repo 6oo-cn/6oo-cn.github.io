@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac技巧 on 只收录实用工具与精品教程</title>
+    <link>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/mac%E6%8A%80%E5%B7%A7/index.html</link>
+    <description>Recent content in Mac技巧 on 只收录实用工具与精品教程</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <atom:link href="https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/mac%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

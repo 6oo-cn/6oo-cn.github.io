@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>笔记 on 只收录实用工具与精品教程</title>
+    <link>https://example.org/categories/%E7%AC%94%E8%AE%B0/index.html</link>
+    <description>Recent content in 笔记 on 只收录实用工具与精品教程</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 13 Feb 2024 03:39:41 +0800</lastBuildDate>
+    <atom:link href="https://example.org/categories/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HUGO 笔记</title>
+      <link>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/hugo-%E7%AC%94%E8%AE%B0/index.html</link>
+      <pubDate>Tue, 13 Feb 2024 03:39:41 +0800</pubDate>
+      <guid>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/hugo-%E7%AC%94%E8%AE%B0/index.html</guid>
+      <description>创建页面及文章 首先使用以下命令创建章节 hugo new --kind chapter 个人笔记/_index.md然后，在之前创建的章节中创建内容页面。以下是在本章中创建内容的两种方法
+hugo new 个人笔记/文章标题.mdhugo new 个人笔记/文章分类/_index.md更改Favicon 如果您的favicon是SVG、PNG或ICO，只需将您的图像放在您网站的static/images/目录并命名它favicon.svg，favicon.png
+更换徽标 在网站的layouts/partials/logo.html中创建新文件。然后写任何你想要的HTML。您可以使用一个imgHTML标签并引用在_static_ folder下创建的图像，或者您可以粘贴一个SVG定义！
+注释 徽标的大小将自动适应。
+部分 Relearn主题已通过定义多个 partials-部分
+In themes/hugo-theme-relearn/layouts/partials/, 您将找到为此主题定义的所有部分。如果您需要覆盖某些内容，请不要直接更改代码。相反，请关注此页面. 你会在&amp;hellip;中创建一个新的部分layouts/partials您本地项目的文件夹。这部分将具有优先权。
+这个主题定义了以下部分：
+header.html: 页面的标题。查看 output-formats - 输出格式 footer.html: 页面的页脚。查看 output-formats - 输出格式 body.html: 页面正文。身体可能包含一件或多件物品。查看输出格式 output-formats article.html: 单篇文章的输出，可以包含围绕您内容的元素。查看输出格式 output-formats menu.html: 左侧菜单。无意被覆盖 search.html: 搜索框。无意被覆盖 custom-header.html: 页面中的自定义标题。意味着在添加CSS导入时被覆盖。不要忘记在文件中包含 style HTML标签指令。 custom-footer.html: 页面中的自定义页脚。意味着在添加JavaScript时被覆盖。别忘了包括javascript文件中的HTML标签指令。 favicon.html: 网站图标 heading.html: 侧边配置，以改变页面标题标题。 heading-pre.html: 侧边配置，以附加到页面标题标题。如果你忽略了这一点，你有责任考虑页面的headingPre设置。 heading-post.html: 侧边配置，以附加到页面标题标题。如果您忽略了这一点，您有责任考虑页面的headingPost设置。 logo.html: 徽标，在左上角 meta.html: HTML元标记，如果您想更改默认行为 menu-pre.html: 侧边配置，以先于菜单项。如果您覆盖此，您有责任获取该页面的menuPre考虑在内。 menu-post.html: 侧边配置，以附加到菜单项。如果您覆盖此，您有责任获取该页面的menuPost考虑在内。 menu-footer.html: 左侧菜单的页脚 toc.</description>
+    </item>
+  </channel>
+</rss>

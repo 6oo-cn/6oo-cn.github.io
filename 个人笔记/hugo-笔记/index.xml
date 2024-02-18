@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HUGO 笔记 on 只收录实用工具与精品教程</title>
+    <link>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/hugo-%E7%AC%94%E8%AE%B0/index.html</link>
+    <description>Recent content in HUGO 笔记 on 只收录实用工具与精品教程</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 13 Feb 2024 03:39:41 +0800</lastBuildDate>
+    <atom:link href="https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/hugo-%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>前端设置</title>
+      <link>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/hugo-%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/hugo-%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF/index.html</guid>
+      <description>每个 Hugo 页面都必须在toml、yaml或json中定义一个frontmatter。本网站将使用toml进行文档处理，在任何情况下都是。
+# If an option value is said to be not set, you can achieve the same behavior # by given it an empty string value. ############################################################################### # Hugo # These options usually apply to other themes aswell. # The social media image of your page. # Default: not set # This is used for generating social media meta information for the opengraph # protocol and twitter cards. # If not set, the set value of your site&amp;#39;s hugo.</description>
+    </item>
+    <item>
+      <title>页面组织</title>
+      <link>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/hugo-%E7%AC%94%E8%AE%B0/%E9%A1%B5%E9%9D%A2%E5%B1%82%E7%BA%A7/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/hugo-%E7%AC%94%E8%AE%B0/%E9%A1%B5%E9%9D%A2%E5%B1%82%E7%BA%A7/index.html</guid>
+      <description>在Hugo中，页面是您网站的核心。一旦配置好，页面绝对是文档网站的附加值.
+文件夹 像任何其他 HUGO 项目一样组织您的网站. 通常，您将有一个包含所有页面的内容文件夹。
+content ├── level-one │ ├── level-two │ │ ├── level-three │ │ │ ├── level-four │ │ │ │ ├── _index.md &amp;lt;-- /level-one/level-two/level-three/level-four │ │ │ │ ├── page-4-a.md &amp;lt;-- /level-one/level-two/level-three/level-four/page-4-a │ │ │ │ ├── page-4-b.md &amp;lt;-- /level-one/level-two/level-three/level-four/page-4-b │ │ │ │ └── page-4-c.md &amp;lt;-- /level-one/level-two/level-three/level-four/page-4-c │ │ │ ├── _index.md &amp;lt;-- /level-one/level-two/level-three │ │ │ ├── page-3-a.md &amp;lt;-- /level-one/level-two/level-three/page-3-a │ │ │ ├── page-3-b.</description>
+    </item>
+  </channel>
+</rss>

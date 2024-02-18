@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.122.0">
+    <meta name="generator" content="Relearn 5.23.2+tip">
+    <meta name="description" content=" 软件,素材,教程,源码,">
+    <meta name="author" content=" 6号技师 ">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://example.org/images/logo.png">
+    <meta name="twitter:title" content="个人笔记 - 只收录实用工具与精品教程">
+    <meta name="twitter:description" content=" 软件,素材,教程,源码,">
+    <meta property="og:title" content="个人笔记 - 只收录实用工具与精品教程">
+    <meta property="og:description" content=" 软件,素材,教程,源码,">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/index.html">
+    <meta property="og:image" content="https://example.org/images/logo.png">
+    <meta property="og:site_name" content="只收录实用工具与精品教程">
+    <title>个人笔记 - 只收录实用工具与精品教程</title>
+    <link href="https://example.org/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/index.html" rel="canonical" type="text/html" title="个人笔记 - 只收录实用工具与精品教程">
+    <link href="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/index.xml" rel="alternate" type="application/rss+xml" title="个人笔记 - 只收录实用工具与精品教程">
+    <link href="/images/favicon.svg?1708238489" rel="icon" type="image/svg+xml">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1708238489" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1708238489" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1708238489" rel="stylesheet">
+    <link href="/css/auto-complete.css?1708238489" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1708238489" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1708238489" rel="stylesheet">
+    <link href="/css/fonts.css?1708238489" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1708238489" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1708238489" rel="stylesheet">
+    <link href="/css/theme-neon.css?1708238489" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-neon.css?1708238489" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1708238489" rel="stylesheet">
+    <link href="/css/print.css?1708238489" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1708238489" rel="stylesheet">
+    <link href="/css/ie.css?1708238489" rel="stylesheet">
+    <script src="/js/url.js?1708238489"></script>
+    <script src="/js/variant.js?1708238489"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="/index.search.js";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      window.relearn = window.relearn || {};
+      window.relearn.baseUriFull='https:\/\/example.org/';
+      // variant stuff
+      window.relearn.themeVariantModifier='';
+      window.variants && variants.init( [ 'neon' ] );
+      // translations
+      window.T_Copy_to_clipboard = `复制到剪贴板`;
+      window.T_Copied_to_clipboard = `复制到剪贴板！`;
+      window.T_Copy_link_to_clipboard = `将链接复制到剪贴板`;
+      window.T_Link_copied_to_clipboard = `链接复制到剪贴板！`;
+      window.T_Reset_view = `重置视图`;
+      window.T_View_reset = `查看重置！`;
+      window.T_No_results_found = `找不到"{0}"的结果`;
+      window.T_N_results_found = `为"{0}"找到 {1} 个结果`;
+    </script>
+    <style>
+      #R-body img.bg-white {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="导航 (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">个人笔记</span><meta itemprop="position" content="1"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable chapter narrow" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="chapter">
+            <header class="headline">
+            </header>
+<div class="article-subheading">第1章</div>
+<h1 id="个人笔记">个人笔记</h1>
+
+<h3 id="首先使用以下命令创建第一章页面">首先使用以下命令创建第一章页面</h3>
+<pre><code>hugo new --kind chapter basics/_index.md
+</code></pre>
+<p>然后，在之前创建的章节中创建内容页面。以下是在本章中创建内容的两种方法</p>
+<pre><code>hugo new basics/first-content.md
+hugo new basics/second-content/_index.md
+</code></pre>
+<h3 id="在本地启动网站">在本地启动网站</h3>
+<pre><code> hugo serve
+</code></pre>
+<p>浏览器打开 [<code>http://localhost:1313</code>]</p>
+<h3 id="构建网站">构建网站</h3>
+<p>当您的网站准备部署时，运行以下命令：
+hugo</p>
+<p>罗马字母的第一个字母<code>public</code>将生成文件夹，包含您网站的所有静态内容和资产。它现在可以部署在任何网络服务器上.</p>
+<h3 id="一查看安装版本">一：查看安装版本</h3>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">version</span></span></span></code></pre></div><h3 id="二安装hugo--已经安装就忽略">二：安装Hugo ➡️ 已经安装就忽略</h3>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">brew</span> <span style="color:#a6e22e">install</span> <span style="color:#a6e22e">hugo</span></span></span></code></pre></div><h3 id="三创建本地站点--进入根目录">三：创建本地站点 ➡️ 进入根目录</h3>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">new</span> <span style="color:#a6e22e">site</span> <span style="color:#a6e22e">My</span><span style="color:#f92672">-</span><span style="color:#ae81ff">6</span><span style="color:#a6e22e">oo</span>; <span style="color:#a6e22e">cd</span> <span style="color:#a6e22e">My</span><span style="color:#f92672">-</span><span style="color:#ae81ff">6</span><span style="color:#a6e22e">oo</span></span></span></code></pre></div><p>克隆主题到本地</p>
+<div class="wrap-code highlight"><pre tabindex="0"><code>git clone https://github.com/McShelby/hugo-theme-relearn.git</code></pre></div><p>指向当前主题路径</p>
+<div class="wrap-code highlight"><pre tabindex="0"><code>echo &#34;theme = &#39;hugo-theme-relearn&#39;&#34; &gt;&gt; hugo.toml</code></pre></div><p>或者</p>
+<div class="wrap-code highlight"><pre tabindex="0"><code>hugo server -t hugo-theme-relearn --buildDrafts</code></pre></div><div class="wrap-code highlight"><pre tabindex="0"><code>hugo server -t shadocs --buildDrafts</code></pre></div><h3 id="四创建章节页面">四：创建章节页面</h3>
+<p>主题提供了为您的网站创建骨架的原型。</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">new</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">kind</span> <span style="color:#a6e22e">chapter</span> <span style="color:#a6e22e">个人笔记</span><span style="color:#f92672">/</span><span style="color:#a6e22e">_index</span>.<span style="color:#a6e22e">md</span></span></span></code></pre></div><h3 id="五创建您的第一个内容页面">五：创建您的第一个内容页面</h3>
+<p>然后，在之前创建的章节中创建内容页面。以下是在本章中创建内容的两种方法：</p>
+<div class="wrap-code highlight"><pre tabindex="0"><code>hugo new 开源工具/小工具推荐/_index.md</code></pre></div><div class="wrap-code highlight"><pre tabindex="0"><code>hugo new basics/first-content.md</code></pre></div><p>通过添加一些示例内容并替换文件开头的值来编辑这些文件。title</p>
+<h3 id="六在本地启动网站">六：在本地启动网站</h3>
+<p>使用以下命令启动：</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">server</span></span></span></code></pre></div><p>转到http://localhost:1313</p>
+<p>您应该注意三件事：</p>
+<ol>
+<li>您有一个左侧的“基本”菜单，其中包含两个子菜单，其名称与先前创建的文件中的属性相同。title</li>
+<li>页说明了如何按照说明对其进行自定义。</li>
+<li>跑步时hugo serve，当文件内容发生更改时，页面会自动刷新。整洁！</li>
+</ol>
+<p>建立网站
+当站点准备好部署时，请运行以下命令：</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span></span></span></code></pre></div><h3 id="四克隆主题到本地">四：克隆主题到本地</h3>
+<div class="wrap-code highlight"><pre tabindex="0"><code>git clone https://github.com/zhaohuabing/hugo-theme-cleanwhite.git</code></pre></div><div class="wrap-code highlight"><pre tabindex="0"><code>git clone https://github.com/McShelby/hugo-theme-relearn.git</code></pre></div><p>2:或者</p>
+<p>cd myblog/themes   把exampleSite文件夹内容复制到根目录</p>
+<div class="wrap-code highlight"><pre tabindex="0"><code>cp -r relearn/exampleSite/** ../</code></pre></div><div class="wrap-code highlight"><pre tabindex="0"><code>cd ..</code></pre></div><h3 id="五运行指定主题">五：运行指定主题</h3>
+<div class="wrap-code highlight"><pre tabindex="0"><code>hugo server -t relearn --buildDrafts</code></pre></div><!-- raw HTML omitted -->
+<h3 id="六创建github仓库">六：创建github仓库</h3>
+<div class="wrap-code highlight"><pre tabindex="0"><code>hugo --theme=hugo-theme-cleanwhite --baseURL=&#34;https://6oo-cn.github.io&#34; --buildDrafts</code></pre></div><div class="wrap-code highlight"><pre tabindex="0"><code>cd public</code></pre></div><p>检查配置信息</p>
+<div class="wrap-code highlight"><pre tabindex="0"><code>git config --global --list</code></pre></div><p>创建文章</p>
+<div class="wrap-code highlight"><pre tabindex="0"><code>hugo new post/my-post.md</code></pre></div><p>指向当前主题路径</p>
+<div class="wrap-code highlight"><pre tabindex="0"><code>echo &#34;theme = &#39;paper&#39;&#34; &gt;&gt; hugo.toml</code></pre></div><p>或者：</p>
+<div class="wrap-code highlight"><pre tabindex="0"><code>hugo server -t hugo-theme-cleanwhite --buildDrafts</code></pre></div><p>2:启动雨果的开发服务器来查看网站</p>
+<div class="wrap-code highlight"><pre tabindex="0"><code>hugo server --buildDrafts</code></pre></div><p>或</p>
+<div class="wrap-code highlight"><pre tabindex="0"><code>hugo server -D</code></pre></div><p>发布博客到Github Pagesgit</p>
+<p>一：克隆git仓库到本地</p>
+<div class="wrap-code highlight"><pre tabindex="0"><code>git clone git@github.com:6oo-cn/6oo-cn.github.io.git</code></pre></div><p>二：制作软链接</p>
+<div class="wrap-code highlight"><pre tabindex="0"><code>Ln -s /Users/6oo-cn/wwwblog/6oo-cn.github.io /Users/6oo-cn/wwwblog/public</code></pre></div><p>三：初始化已存在的 Git 仓库</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>1： hugo
+</span></span><span style="display:flex;"><span>2： cd 6oo-cn.github.io
+</span></span><span style="display:flex;"><span>3： git status
+</span></span><span style="display:flex;"><span>4： git add *
+</span></span><span style="display:flex;"><span>5： git status
+</span></span><span style="display:flex;"><span>6： git commit -m &#34;我的第2次提交&#34;
+</span></span><span style="display:flex;"><span>7 ：git push</span></span></code></pre></div><p>二次提交从 4 步开始</p>
+<hr>
+<h3 id="创建ssh-keys">创建ssh keys</h3>
+<div class="wrap-code highlight"><pre tabindex="0"><code>ssh-keygen -t rsa -b 1718 -C &#34;vip.6oo@qq.com&#34;</code></pre></div><p>回车三次</p>
+<div class="wrap-code highlight"><pre tabindex="0"><code>cat ~/.ssh/id_rsa.pu</code></pre></div>
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">个人笔记 的子部分</h1>
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="hugo-笔记">HUGO 笔记</h1>
+
+<h2 id="创建页面及文章">创建页面及文章</h2>
+<h3 id="首先使用以下命令创建章节">首先使用以下命令创建章节</h3>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">new</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">kind</span> <span style="color:#a6e22e">chapter</span> <span style="color:#a6e22e">个人笔记</span><span style="color:#f92672">/</span><span style="color:#a6e22e">_index</span>.<span style="color:#a6e22e">md</span></span></span></code></pre></div><p>然后，在之前创建的章节中创建内容页面。以下是在本章中创建内容的两种方法</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">new</span> <span style="color:#a6e22e">个人笔记</span><span style="color:#f92672">/</span><span style="color:#a6e22e">文章标题</span>.<span style="color:#a6e22e">md</span></span></span></code></pre></div><div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">new</span> <span style="color:#a6e22e">个人笔记</span><span style="color:#f92672">/</span><span style="color:#a6e22e">文章分类</span><span style="color:#f92672">/</span><span style="color:#a6e22e">_index</span>.<span style="color:#a6e22e">md</span></span></span></code></pre></div><h3 id="更改favicon">更改Favicon</h3>
+<p>如果您的<code>favicon</code>是<code>SVG</code>、<code>PNG</code>或<code>ICO</code>，只需将您的图像放在您网站的<code>static/images/</code>目录并命名它<code>favicon.svg</code>，<code>favicon.png</code></p>
+<h3 id="更换徽标">更换徽标</h3>
+<p>在网站的<code>layouts/partials/logo.html</code>中创建新文件。然后写任何你想要的HTML。您可以使用一个<code>img</code>HTML标签并引用在<code>_static_ folder</code>下创建的图像，或者您可以粘贴一个SVG定义！</p>
+
+<div class="box notices cstyle note">
+  <div class="box-label"><i class="fa-fw fas fa-exclamation-circle"></i> 注释</div>
+  <div class="box-content">
+
+<p>徽标的大小将自动适应。</p>
+</div>
+</div>
+<h3 id="部分">部分</h3>
+<p>Relearn主题已通过定义多个 <a href="https://gohugo.io/templates/partials/" target="_blank">partials-部分</a></p>
+<p>In <code>themes/hugo-theme-relearn/layouts/partials/</code>, 您将找到为此主题定义的所有部分。如果您需要覆盖某些内容，请不要直接更改代码。相反，<a href="https://gohugo.io/themes/customizing/" target="_blank">请关注此页面</a>. 你会在&hellip;中创建一个新的部分<code>layouts/partials</code>您本地项目的文件夹。这部分将具有优先权。</p>
+<p>这个主题定义了以下部分：</p>
+<ul>
+<li><code>header.html</code>: 页面的标题。查看 <a href="#output-formats">output-formats - 输出格式</a></li>
+<li><code>footer.html</code>: 页面的页脚。查看 <a href="#output-formats">output-formats - 输出格式</a></li>
+<li><code>body.html</code>: 页面正文。身体可能包含一件或多件物品。查看输出格式 <a href="#output-formats">output-formats</a></li>
+<li><code>article.html</code>: 单篇文章的输出，可以包含围绕您内容的元素。查看输出格式 <a href="#output-formats">output-formats</a></li>
+<li><code>menu.html</code>: 左侧菜单。无意被覆盖</li>
+<li><code>search.html</code>: 搜索框。无意被覆盖</li>
+<li><code>custom-header.html</code>: 页面中的自定义标题。意味着在添加CSS导入时被覆盖。不要忘记在文件中包含 <code>style</code> HTML标签指令。</li>
+<li><code>custom-footer.html</code>:  页面中的自定义页脚。意味着在添加JavaScript时被覆盖。别忘了包括<code>javascript</code>文件中的HTML标签指令。</li>
+<li><code>favicon.html</code>: 网站图标</li>
+<li><code>heading.html</code>: 侧边配置，以改变页面标题标题。</li>
+<li><code>heading-pre.html</code>: 侧边配置，以附加到页面标题标题。如果你忽略了这一点，你有责任考虑页面的<code>headingPre</code>设置。</li>
+<li><code>heading-post.html</code>: 侧边配置，以附加到页面标题标题。如果您忽略了这一点，您有责任考虑页面的<code>headingPost</code>设置。</li>
+<li><code>logo.html</code>: 徽标，在左上角</li>
+<li><code>meta.html</code>: HTML元标记，如果您想更改默认行为</li>
+<li><code>menu-pre.html</code>: 侧边配置，以先于菜单项。如果您覆盖此，您有责任获取该页面的<code>menuPre</code>考虑在内。</li>
+<li><code>menu-post.html</code>: 侧边配置，以附加到菜单项。如果您覆盖此，您有责任获取该页面的<code>menuPost</code>考虑在内。</li>
+<li><code>menu-footer.html</code>: 左侧菜单的页脚</li>
+<li><code>toc.html</code>: 目录表</li>
+<li><code>content.html</code>: 内容页本身。如果您希望在内容上方或下方显示页面的元数据，则可以重写。</li>
+<li><code>content-header.html</code>: 标题上方的标题，有一个默认的实现，但如果你不喜欢它，你可以覆盖它。</li>
+<li><code>content-footer.html</code>: 内容下方的页脚，有一个默认实现，但如果你不喜欢它，你可以覆盖它。</li>
+</ul>
+<h3 id="在本地启动网站">在本地启动网站</h3>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">serve</span></span></span></code></pre></div><p>浏览器打开 <code>http://localhost:1313</code></p>
+<h3 id="构建网站">构建网站</h3>
+<p>当您的网站准备部署时，运行以下命令:</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span></span></span></code></pre></div><p>罗马字母的第一个字母<code>public</code>将生成文件夹，包含您网站的所有静态内容和资产。它现在可以部署在任何网络服务器上.</p>
+<h3 id="一查看安装版本">一：查看安装版本</h3>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">version</span></span></span></code></pre></div><h3 id="二安装hugo--已经安装就忽略">二：安装Hugo ➡️ 已经安装就忽略</h3>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">brew</span> <span style="color:#a6e22e">install</span> <span style="color:#a6e22e">hugo</span></span></span></code></pre></div><h3 id="三创建本地站点--进入根目录">三：创建本地站点 ➡️ 进入根目录</h3>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">new</span> <span style="color:#a6e22e">site</span> <span style="color:#a6e22e">My</span><span style="color:#f92672">-</span><span style="color:#ae81ff">6</span><span style="color:#a6e22e">oo</span>; <span style="color:#a6e22e">cd</span> <span style="color:#a6e22e">My</span><span style="color:#f92672">-</span><span style="color:#ae81ff">6</span><span style="color:#a6e22e">oo</span></span></span></code></pre></div><p>克隆主题到本地</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">clone</span> <span style="color:#a6e22e">https</span>:<span style="color:#75715e">//github.com/McShelby/hugo-theme-relearn.git
+</span></span></span></code></pre></div><p>指向当前主题路径</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span>    <span style="color:#a6e22e">echo</span> <span style="color:#e6db74">&#34;theme = &#39;hugo-theme-relearn&#39;&#34;</span> <span style="color:#f92672">&gt;&gt;</span> <span style="color:#a6e22e">hugo</span>.<span style="color:#a6e22e">toml</span></span></span></code></pre></div><p>或者</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span>    <span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">server</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">t</span> <span style="color:#a6e22e">hugo</span><span style="color:#f92672">-</span><span style="color:#a6e22e">theme</span><span style="color:#f92672">-</span><span style="color:#a6e22e">relearn</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">buildDrafts</span></span></span></code></pre></div><div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span>    <span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">server</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">t</span> <span style="color:#a6e22e">shadocs</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">buildDrafts</span></span></span></code></pre></div><h3 id="四创建章节页面">四：创建章节页面</h3>
+<p>主题提供了为您的网站创建骨架的原型。</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">new</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">kind</span> <span style="color:#a6e22e">chapter</span> <span style="color:#a6e22e">个人笔记</span><span style="color:#f92672">/</span><span style="color:#a6e22e">_index</span>.<span style="color:#a6e22e">md</span></span></span></code></pre></div><h3 id="五创建您的第一个内容页面">五：创建您的第一个内容页面</h3>
+<p>然后，在之前创建的章节中创建内容页面。以下是在本章中创建内容的两种方法：</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">new</span> <span style="color:#a6e22e">开源工具</span><span style="color:#f92672">/</span><span style="color:#a6e22e">小工具推荐</span><span style="color:#f92672">/</span><span style="color:#a6e22e">_index</span>.<span style="color:#a6e22e">md</span></span></span></code></pre></div><div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">new</span> <span style="color:#a6e22e">basics</span><span style="color:#f92672">/</span><span style="color:#a6e22e">first</span><span style="color:#f92672">-</span><span style="color:#a6e22e">content</span>.<span style="color:#a6e22e">md</span></span></span></code></pre></div><p>通过添加一些示例内容并替换文件开头的值来编辑这些文件。title</p>
+<h3 id="六在本地启动网站">六：在本地启动网站</h3>
+<p>使用以下命令启动：</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">server</span></span></span></code></pre></div><p>转到<a href="http://localhost:1313" target="_blank">http://localhost:1313</a></p>
+<p>您应该注意三件事：</p>
+<ol>
+<li>您有一个左侧的“基本”菜单，其中包含两个子菜单，其名称与先前创建的文件中的属性相同。title</li>
+<li>页说明了如何按照说明对其进行自定义。</li>
+<li>跑步时hugo serve，当文件内容发生更改时，页面会自动刷新。整洁！</li>
+</ol>
+<p>建立网站
+当站点准备好部署时，请运行以下命令：</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span></span></span></code></pre></div><h3 id="四克隆主题到本地">四：克隆主题到本地</h3>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">clone</span> <span style="color:#a6e22e">https</span>:<span style="color:#75715e">//github.com/zhaohuabing/hugo-theme-cleanwhite.git
+</span></span></span></code></pre></div><div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">clone</span> <span style="color:#a6e22e">https</span>:<span style="color:#75715e">//github.com/McShelby/hugo-theme-relearn.git
+</span></span></span></code></pre></div><p>2:或者</p>
+<p>cd myblog/themes   把exampleSite文件夹内容复制到根目录</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">cp</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">r</span> <span style="color:#a6e22e">relearn</span><span style="color:#f92672">/</span><span style="color:#a6e22e">exampleSite</span><span style="color:#f92672">/**</span> ..<span style="color:#f92672">/</span></span></span></code></pre></div><div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">cd</span> ..</span></span></code></pre></div><h3 id="五运行指定主题">五：运行指定主题</h3>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">server</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">t</span> <span style="color:#a6e22e">relearn</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">buildDrafts</span></span></span></code></pre></div><!-- raw HTML omitted -->
+<h3 id="六创建github仓库">六：创建github仓库</h3>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">theme</span>=<span style="color:#a6e22e">hugo</span><span style="color:#f92672">-</span><span style="color:#a6e22e">theme</span><span style="color:#f92672">-</span><span style="color:#a6e22e">cleanwhite</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">baseURL</span>=<span style="color:#e6db74">&#34;https://6oo-cn.github.io&#34;</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">buildDrafts</span></span></span></code></pre></div><div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">cd</span> <span style="color:#a6e22e">public</span></span></span></code></pre></div><p>检查配置信息</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">config</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">global</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">list</span></span></span></code></pre></div><p>创建文章</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">new</span> <span style="color:#a6e22e">post</span><span style="color:#f92672">/</span><span style="color:#a6e22e">my</span><span style="color:#f92672">-</span><span style="color:#a6e22e">post</span>.<span style="color:#a6e22e">md</span></span></span></code></pre></div><p>指向当前主题路径</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">echo</span> <span style="color:#e6db74">&#34;theme = &#39;paper&#39;&#34;</span> <span style="color:#f92672">&gt;&gt;</span> <span style="color:#a6e22e">hugo</span>.<span style="color:#a6e22e">toml</span></span></span></code></pre></div><p>或者：</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">server</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">t</span> <span style="color:#a6e22e">hugo</span><span style="color:#f92672">-</span><span style="color:#a6e22e">theme</span><span style="color:#f92672">-</span><span style="color:#a6e22e">cleanwhite</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">buildDrafts</span></span></span></code></pre></div><p>2:启动雨果的开发服务器来查看网站</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">server</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">buildDrafts</span></span></span></code></pre></div><p>或</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">server</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">D</span></span></span></code></pre></div><p>发布博客到Github Pagesgit</p>
+<p>一：克隆git仓库到本地</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">clone</span> <span style="color:#a6e22e">git</span><span style="color:#960050;background-color:#1e0010">@</span><span style="color:#a6e22e">github</span>.<span style="color:#a6e22e">com</span>:<span style="color:#ae81ff">6</span><span style="color:#a6e22e">oo</span><span style="color:#f92672">-</span><span style="color:#a6e22e">cn</span><span style="color:#f92672">/</span><span style="color:#ae81ff">6</span><span style="color:#a6e22e">oo</span><span style="color:#f92672">-</span><span style="color:#a6e22e">cn</span>.<span style="color:#a6e22e">github</span>.<span style="color:#a6e22e">io</span>.<span style="color:#a6e22e">git</span></span></span></code></pre></div><p>二：制作软链接</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">Ln</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">s</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">Users</span><span style="color:#f92672">/</span><span style="color:#ae81ff">6</span><span style="color:#a6e22e">oo</span><span style="color:#f92672">-</span><span style="color:#a6e22e">cn</span><span style="color:#f92672">/</span><span style="color:#a6e22e">wwwblog</span><span style="color:#f92672">/</span><span style="color:#ae81ff">6</span><span style="color:#a6e22e">oo</span><span style="color:#f92672">-</span><span style="color:#a6e22e">cn</span>.<span style="color:#a6e22e">github</span>.<span style="color:#a6e22e">io</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">Users</span><span style="color:#f92672">/</span><span style="color:#ae81ff">6</span><span style="color:#a6e22e">oo</span><span style="color:#f92672">-</span><span style="color:#a6e22e">cn</span><span style="color:#f92672">/</span><span style="color:#a6e22e">wwwblog</span><span style="color:#f92672">/</span><span style="color:#a6e22e">public</span></span></span></code></pre></div><p>三：初始化已存在的 Git 仓库</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">init</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">1.</span> <span style="color:#a6e22e">hugo</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">2.</span> <span style="color:#a6e22e">cd</span> <span style="color:#ae81ff">6</span><span style="color:#a6e22e">oo</span><span style="color:#f92672">-</span><span style="color:#a6e22e">cn</span>.<span style="color:#a6e22e">github</span>.<span style="color:#a6e22e">io</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">3.</span> <span style="color:#a6e22e">git</span> <span style="color:#a6e22e">status</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">4.</span> <span style="color:#a6e22e">git</span> <span style="color:#a6e22e">add</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">5.</span> <span style="color:#a6e22e">git</span> <span style="color:#a6e22e">status</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">6.</span> <span style="color:#a6e22e">git</span> <span style="color:#a6e22e">commit</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">m</span> <span style="color:#e6db74">&#34;我的第2次提交&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">7.</span> <span style="color:#a6e22e">git</span> <span style="color:#a6e22e">push</span></span></span></code></pre></div><p>二次提交从 4 步开始</p>
+<h3 id="创建ssh-keys">创建ssh keys</h3>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">ssh</span><span style="color:#f92672">-</span><span style="color:#a6e22e">keygen</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">t</span> <span style="color:#a6e22e">rsa</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">b</span> <span style="color:#ae81ff">1718</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">C</span> <span style="color:#e6db74">&#34;&lt;vip.6oo@qq.com&gt;&#34;</span></span></span></code></pre></div><p>回车三次</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#a6e22e">cat</span> <span style="color:#960050;background-color:#1e0010">~</span><span style="color:#f92672">/</span>.<span style="color:#a6e22e">ssh</span><span style="color:#f92672">/</span><span style="color:#a6e22e">id_rsa</span>.<span style="color:#a6e22e">pu</span></span></span></code></pre></div>
+            <footer class="footline">
+<div class=" taxonomy-categories term-list cstyle  " title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/categories/hugo/index.html">hugo</a></li>
+    <li><a class="term-link" href="/categories/%E7%AC%94%E8%AE%B0/index.html">笔记</a></li>
+  </ul>
+</div>
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">HUGO 笔记 的子部分</h1>
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="前端设置">前端设置</h1>
+
+<p>每个 Hugo 页面都必须在toml、yaml或json中定义一个<a href="https://gohugo.io/content/front-matter/" target="_blank">frontmatter</a>。本网站将使用toml进行文档处理，在任何情况下都是。</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#75715e"># If an option value is said to be not set, you can achieve the same behavior</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># by given it an empty string value.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">###############################################################################</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Hugo</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># These options usually apply to other themes aswell.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># The social media image of your page.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: not set</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># This is used for generating social media meta information for the opengraph</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># protocol and twitter cards.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If not set, the set value of your site&#39;s hugo.toml is used.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">images</span> = [ <span style="color:#e6db74">&#34;images/hero.png&#34;</span> ]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># The title of your page.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: not set</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># A page without a title is treated as a hidden page.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;Example Page&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># The description of your page.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: not set</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># This is used for generating HTML meta tags, social media meta information</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># for the opengraph protocol and twitter cards.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If not set, the set value of your site&#39;s hugo.toml is used for the html</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># meta tag, social media meta information for the opengraph protocol and</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># twitter cards.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">description</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">###############################################################################</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Relearn Theme</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># These options are specific to the Relearn theme.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Topbar</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># These options modify the topbar appearance.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Hide the table of contents button.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: false</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If the TOC button is hidden, also the keyboard shortcut is disabled.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If not set, the set value of your site&#39;s hugo.toml is used.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">disableToc</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Hide the breadcrumbs.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: false</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If the breadcrumbs are hidden, the title of the displayed page will still be</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># shown in the topbar.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">disableBreadcrumb</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Hide Next and Previous navigation buttons.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: false</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If the navigation buttons are hidden, also the keyboard shortcuts are</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># disabled.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">disableNextPrev</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># The URL prefix to edit a page.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: not set</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If set, an edit button will be shown in the topbar. If the button is hidden,</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># also the keyboard shortcuts are disabled. The value can contain the macro</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># `${FilePath}` which will be replaced by the file path of your displayed page.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If not set, the set value of your site&#39;s hugo.toml is used. If the global</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># parameter is given but you want to hide the button for the displayed page,</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># you can set the value to an empty string. If instead of hiding you want to have</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># an disabled button, you can set the value to a string containing just spaces.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># This is useful if you want to give the opportunity for people to create merge</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># request for your content.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">editURL</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Menu</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># These options modify the menu apperance.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># The title in main menu.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: &lt;title&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If set, this will be used for the page&#39;s menu entry instead of the `title`</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># option.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">menuTitle</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Prefix for the title in main menu.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: not set</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># The title of the page in the menu will be prefixed by this HTML content.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">menuPre</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Suffix for the title in main menu.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: not set</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># The title of the page in the menu will be suffixed by this HTML content.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">menuPost</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># The order of main menu submenus.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: &#34;weight&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Submenus can be ordered by &#34;weight&#34;, &#34;title&#34;, &#34;linktitle&#34;, &#34;modifieddate&#34;,</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># &#34;expirydate&#34;, &#34;publishdate&#34;, &#34;date&#34;, &#34;length&#34; or &#34;default&#34; (adhering to</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Hugo&#39;s default sort order).</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If not set, the value of the parent menu entry is used.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">ordersectionsby</span> = <span style="color:#e6db74">&#34;weight&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># The initial expand state of submenus.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: not set</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># This controls whether submenus will be expanded (true), or collapsed (false)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># in the menu. If not set, the first menu level is set to false, all others</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># levels are set to true. If not set, the value of the parent menu entry is used.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If the displayed page has submenus, they will always been displayed expanded</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># regardless of this option.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">alwaysopen</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Shows expander for submenus.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: false</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If set to true, a submenu in the sidebar will be displayed in a collapsible</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># tree view and a clickable expander is set in front of the entry.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If not set, the set value of your site&#39;s hugo.toml is used.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">collapsibleMenu</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Hidden pages</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># These options configure how hidden pages are treated.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># A page flagged as hidden, is only removed from the main menu if you are</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># currently not on this page or the hidden page is not part of current page&#39;s</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># ancestors. For all other functionality in Hugo a hidden page behaves like any</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># other page if not otherwise configured.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Hide a page&#39;s menu entry.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: false</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If this value is true, the page is hidden from the menu.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">hidden</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Content</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># These options modify how your content is displayed.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Prefix for the title in the content area.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: not set</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># The title of the page heading will be prefixed by this HTML content.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">headingPre</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Suffix for the title in the content area.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: not set</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># The title of the page heading will be suffixed by this HTML content.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">headingPost</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Display name of the page&#39;s last editor.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: not set</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If set, it will be displayed in the default footer.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">LastModifierDisplayName</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Email address of the page&#39;s last editor.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: not set</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If set together with LastModifierDisplayName, it will be displayed in the</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># default footer.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">LastModifierEmail</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Highlight</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># These options configure how code is displayed.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Wrap for code blocks.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: true</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># By default lines of code blocks wrap around if the line is too long to be</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># displayed on screen. If you dislike this behavior, you can reconfigure it</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># here.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Note that lines always wrap in print mode regardless of this option.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If not set, the set value of your site&#39;s hugo.toml is used or given as a</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># parameter to individual code blocks.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">highlightWrap</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Images</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># These options configure how images are displayed.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Image effects.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># See the documentation for how you can even add your own arbitrary effects to</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># the list.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># All effect values default to the values of your site&#39;s hugo.toml and can be</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># overridden thru URL parameter given to the image. See the documentation for</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># details.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: false</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">imageEffects</span>.<span style="color:#a6e22e">border</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: true</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">imageEffects</span>.<span style="color:#a6e22e">lightbox</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: false</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">imageEffects</span>.<span style="color:#a6e22e">shadow</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># MathJax</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># These options configure how math formulae are displayed.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Initialization options for MathJax.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: not set</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># A JSON value. See the MathJaxdocumentation for possible parameter.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If not set, the set value of your site&#39;s hugo.toml is used.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">mathJaxInitialize</span> = <span style="color:#e6db74">&#34;{}&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Only load MathJax if needed.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: true</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If a Math shortcode is found, the option will be ignored and</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># MathJax will be loaded regardlessly. The option is still useful in case you</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># are using scripting to set up your graph. In this case no shortcode or</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># codefence is involved and the library is not loaded by default. In this case</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># you can set `disableMathJax=false` in your frontmatter to force the library to</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># be loaded.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If not set, the set value of your site&#39;s hugo.toml is used.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">disableMathJax</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># URL for external MathJax library.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: not set</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Specifies the remote location of the MathJax library. By default the shipped</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># version will be used.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If not set, the set value of your site&#39;s hugo.toml is used.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">customMathJaxURL</span> = <span style="color:#e6db74">&#34;&#34;</span> <span style="color:#75715e"># &#34;https://unpkg.com/mathjax/es5/tex-mml-chtml.js&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Mermaid</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># These options configure how Mermaid graphs are displayed.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Make graphs panable and zoomable</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: false</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># For huge graphs it can be helpful to make them zoomable. Zoomable graphs come</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># with a reset button for the zoom.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If not set, the set value of your site&#39;s hugo.toml is used or given as a</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># parameter to individual graphs.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">mermaidZoom</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Initialization options for Mermaid.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: not set</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># A JSON value. See the Mermaid documentation for possible parameter.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If not set, the set value of your site&#39;s hugo.toml is used.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">mermaidInitialize</span> = <span style="color:#e6db74">&#34;{ \&#34;securityLevel\&#34;: \&#34;loose\&#34; }&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Only load Mermaid if needed.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: true</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If a Mermaid shortcode or codefence is found, the option will be ignored and</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Mermaid will be loaded regardlessly. The option is still useful in case you</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># are using scripting to set up your graph. In this case no shortcode or</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># codefence is involved and the library is not loaded by default. In this case</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># you can set `disableMermaid=false` in your frontmatter to force the library to</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># be loaded.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If not set, the set value of your site&#39;s hugo.toml is used.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">disableMermaid</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># URL for external Mermaid library.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: not set</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Specifies the remote location of the Mermaid library. By default the shipped</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># version will be used.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If not set, the set value of your site&#39;s hugo.toml is used.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">customMermaidURL</span> = <span style="color:#e6db74">&#34;&#34;</span> <span style="color:#75715e"># &#34;https://unpkg.com/mermaid/dist/mermaid.min.js&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># OpenApi</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># These options configure how OpenAPI specifications are displayed.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Only load OpenAPI if needed.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: true</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If a OpenAPI shortcode is found, the option will be ignored and</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># OpenAPI will be loaded regardlessly. The option is still useful in case you</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># are using scripting to set up your graph. In this case no shortcode or</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># codefence is involved and the library is not loaded by default. In this case</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># you can set `disableOpenapi=false` in your frontmatter to force the library to</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># be loaded.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If not set, the set value of your site&#39;s hugo.toml is used.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">disableOpenapi</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># URL for external OpenAPI library.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default: not set</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Specifies the remote location of the OpenAPI library. By default the shipped</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># version will be used.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># If not set, the set value of your site&#39;s hugo.toml is used.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">customOpenapiURL</span> = <span style="color:#e6db74">&#34;&#34;</span> <span style="color:#75715e"># &#34;https://unpkg.com/swagger-ui-dist/swagger-ui-bundle.js&#34;</span></span></span></code></pre></div><h2 id="一些详细的示例">一些详细的示例</h2>
+<h3 id="将图标添加到菜单条目">将图标添加到菜单条目</h3>
+<p>在页面前页中，添加一个 <code>menuPre</code> 参数在菜单标签之前插入任何HTML代码。下面的示例使用GitHub图标。</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">+++</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;GitHub repo&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">menuPre</span> = <span style="color:#e6db74">&#34;&lt;i class=&#39;fab fa-github&#39;&gt;&lt;/i&gt; &#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">+++</span></span></span></code></pre></div><p><a href="#R-image-1bb4d7ba232aa7d2b75bfd3f733e76cb" class="lightbox-link"><img src="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/hugo-%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF/frontmatter-icon.png?width=18.75rem" alt="Title with icon" class="figure-image border lightbox noshadow" style="height: auto; width: 18.75rem;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1bb4d7ba232aa7d2b75bfd3f733e76cb"><img src="/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/hugo-%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF/frontmatter-icon.png?width=18.75rem" alt="Title with icon" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<h3 id="订购兄弟姐妹菜单页面条目">订购兄弟姐妹菜单/页面条目</h3>
+<p>Hugo提供了一种 <a href="https://gohugo.io/content/ordering/" target="_blank">灵活的方式</a> 来处理您的页面的订单。</p>
+<p>最简单的方法是设置<code>weight</code>参数到一个数字。</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">+++</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;My page&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">weight</span> = <span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">+++</span></span></span></code></pre></div><h3 id="为菜单条目使用自定义标题">为菜单条目使用自定义标题</h3>
+<p>默认情况下，Relearn主题将对菜单项使用页面的<code>title</code>属性（或<code>linkTitle</code>如果定义了）。</p>
+<p>但页面的标题必须是描述性的，而菜单是层次结构。我们已经添加了<code>menuTitle</code>用于该目的的参数：</p>
+<p>例如（对于一个名为<code>content/install/linux.md</code>）：</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">+++</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;Install on Linux&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">menuTitle</span> = <span style="color:#e6db74">&#34;Linux&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">+++</span></span></span></code></pre></div><h3 id="覆盖菜单条目的展开状态规则">覆盖菜单条目的展开状态规则</h3>
+<p>您可以更改主题如何展开内容一侧的菜单条目<code>alwaysopen</code>按每页设置。如果<code>alwaysopen=false</code>对于任何给定的条目，只要不需要为了导航，其子项就不会显示在菜单中。</p>
+<p>该主题根据以下规则生成菜单：</p>
+<ul>
+<li>无论设置如何，都会显示活动页面的所有父条目，包括他们的兄弟姐妹</li>
+<li>无论设置如何，都会显示活动页面的直接子项</li>
+<li>如果没有被覆盖，所有其他一级条目的行为就像它们被赋予的一样<code>alwaysopen=false</code></li>
+<li>如果没有被覆盖，除了第一个级别之外，所有其他级别的条目都表现得像它们会被给予一样<code>alwaysopen=true</code></li>
+<li>所有可见的条目都会显示其直接子项，如果<code>alwaysopen=true</code>;这是递归进行的</li>
+<li>所有剩余的条目都没有显示</li>
+</ul>
+<h2 id="禁用部分页面">禁用部分页面</h2>
+<p>您可能想以分层次的方式构建页面，但不想为这些部分生成页面？这个主题让你明白了。</p>
+<p>保留最初的例子：假设你想要<code>level-one</code>出现在侧边栏中，但不想为它生成页面。因此，边栏中的条目不应可点击，而应显示展开器。</p>
+<p>为此，打开<code>content/level-one/_index.md</code>并添加以下<code>frontmatter</code></p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">collapsibleMenu</span> = <span style="color:#66d9ef">true</span> <span style="color:#75715e"># 这会将扩展器添加到菜单项中（如果尚未 hugo.toml 在中设置） </span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">_build</span>]
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">render</span> = <span style="color:#e6db74">&#34;never&#34;</span> <span style="color:#75715e"># 不会生成任何页面，因此该页面没有url</span></span></span></code></pre></div>
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="页面组织">页面组织</h1>
+
+<p>在<strong>Hugo</strong>中，页面是您网站的核心。一旦配置好，页面绝对是文档网站的附加值.</p>
+<h2 id="文件夹">文件夹</h2>
+<p><a href="https://gohugo.io/content/organization/" target="_blank">像任何其他 HUGO 项目一样组织您的网站</a>. 通常，您将有一个包含所有页面的内容文件夹。</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-plaintext" data-lang="plaintext"><span style="display:flex;"><span>content
+</span></span><span style="display:flex;"><span>├── level-one
+</span></span><span style="display:flex;"><span>│   ├── level-two
+</span></span><span style="display:flex;"><span>│   │   ├── level-three
+</span></span><span style="display:flex;"><span>│   │   │   ├── level-four
+</span></span><span style="display:flex;"><span>│   │   │   │   ├── _index.md       &lt;-- /level-one/level-two/level-three/level-four
+</span></span><span style="display:flex;"><span>│   │   │   │   ├── page-4-a.md     &lt;-- /level-one/level-two/level-three/level-four/page-4-a
+</span></span><span style="display:flex;"><span>│   │   │   │   ├── page-4-b.md     &lt;-- /level-one/level-two/level-three/level-four/page-4-b
+</span></span><span style="display:flex;"><span>│   │   │   │   └── page-4-c.md     &lt;-- /level-one/level-two/level-three/level-four/page-4-c
+</span></span><span style="display:flex;"><span>│   │   │   ├── _index.md           &lt;-- /level-one/level-two/level-three
+</span></span><span style="display:flex;"><span>│   │   │   ├── page-3-a.md         &lt;-- /level-one/level-two/level-three/page-3-a
+</span></span><span style="display:flex;"><span>│   │   │   ├── page-3-b.md         &lt;-- /level-one/level-two/level-three/page-3-b
+</span></span><span style="display:flex;"><span>│   │   │   └── page-3-c.md         &lt;-- /level-one/level-two/level-three/page-3-c
+</span></span><span style="display:flex;"><span>│   │   ├── _index.md               &lt;-- /level-one/level-two
+</span></span><span style="display:flex;"><span>│   │   ├── page-2-a.md             &lt;-- /level-one/level-two/page-2-a
+</span></span><span style="display:flex;"><span>│   │   ├── page-2-b.md             &lt;-- /level-one/level-two/page-2-b
+</span></span><span style="display:flex;"><span>│   │   └── page-2-c.md             &lt;-- /level-one/level-two/page-2-c
+</span></span><span style="display:flex;"><span>│   ├── _index.md                   &lt;-- /level-one
+</span></span><span style="display:flex;"><span>│   ├── page-1-a.md                 &lt;-- /level-one/page-1-a
+</span></span><span style="display:flex;"><span>│   ├── page-1-b.md                 &lt;-- /level-one/page-1-b
+</span></span><span style="display:flex;"><span>│   └── page-1-c.md                 &lt;-- /level-one/page-1-c
+</span></span><span style="display:flex;"><span>├── _index.md                       &lt;-- /
+</span></span><span style="display:flex;"><span>└── page-top.md                     &lt;-- /page-top</span></span></code></pre></div>
+<div class="box notices cstyle note">
+  <div class="box-label"><i class="fa-fw fas fa-exclamation-circle"></i> 注释</div>
+  <div class="box-content">
+
+<p><code>_index.md</code> 每个文件夹中都需要，这是您的“文件夹主页””</p>
+</div>
+</div>
+<h2 id="创建您的项目">创建您的项目</h2>
+<p>以下步骤可帮助您初始化新网站。如果您根本不了解雨果，我们强烈建议您通过遵循。 <a href="https://gohugo.io/overview/quickstart/" target="_blank">适合初学者的优秀文档进行培训</a>.</p>
+<p>Hugo 提供了创建新网站<code>new</code>命令。</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo new site &lt;new_project&gt;</span></span></code></pre></div>
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="win系统">Win系统</h1>
+
+<p>Windos操作系统的各种使用小技巧</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Win系统 的子部分</h1>
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="共享键鼠">共享键鼠</h1>
+
+<p><a href="#R-image-9f536c4a173ade43e7168e3439497e34" class="lightbox-link"><img src="attachment:51fb63541c4120af5bdfc6c5ae0020ad" alt="DPT888.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9f536c4a173ade43e7168e3439497e34"><img src="attachment:51fb63541c4120af5bdfc6c5ae0020ad" alt="DPT888.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<h3 id="满足需求">满足需求</h3>
+<div class="wrap-code highlight"><pre tabindex="0"><code>如果你希望仅用一套键鼠控制两台及以上的电脑，那么这款免费开源的工具Barrier你一定不能错过！可以在Windows、macOS和Linux之间共享同一套鼠标和键盘，不仅让你摆脱在不同键鼠间反复切换的烦恼，还能省下一笔外设钱。</code></pre></div><h3 id="使用场景">使用场景</h3>
+<div class="wrap-code highlight"><pre tabindex="0"><code>以我为例，我需要在一台台式机和一台Mac笔记本电脑之间共享键鼠，两者都连接了同一Wifi网络，键盘是以前闲置的苹果妙控无线键盘，鼠标是路边捡的有线鼠标。键鼠都连在台式机上。即，我的目标是通过Barrier将台式机配置成服务端，Mac笔记本电脑配置成客户端。</code></pre></div><h3 id="下载安装">下载安装</h3>
+<p>**    点我这里下载 Barrier安装包 ，分别有win系统和Mac系统的**
+项目地址：<a href="https://" target="_blank">https://github.com/debauchee/barrier</a></p>
+<h3 id="配置barrier">配置Barrier</h3>
+<div class="wrap-code highlight"><pre tabindex="0"><code>Barrier是通过服务端和客户端的形式来管理共享键鼠的。你的键鼠连接的电脑就是服务端Server，需要共享使用它的键鼠的就是客户端Client。
+
+在软件运行界面配置服务端 右上角进入更改设置 取消勾选开启SSL 重新启动服务</code></pre></div><p><a href="#R-image-8a13f73d88ad4c23118a987ecf9ebd6c" class="lightbox-link"><img src="attachment:4c1d1d7be9c2aeb2ef7c9bc7819cce37" alt="1.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8a13f73d88ad4c23118a987ecf9ebd6c"><img src="attachment:4c1d1d7be9c2aeb2ef7c9bc7819cce37" alt="1.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<div class="wrap-code highlight"><pre tabindex="0"><code>端口IP设置</code></pre></div><p><a href="#R-image-ea53a6eb9f0b1b5c13f1b5eec750f304" class="lightbox-link"><img src="attachment:4d5096f7c2ada07913ac37a6095746a4" alt="2.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ea53a6eb9f0b1b5c13f1b5eec750f304"><img src="attachment:4d5096f7c2ada07913ac37a6095746a4" alt="2.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<div class="wrap-code highlight"><pre tabindex="0"><code>置Barrier服务端与客户端的屏幕布局</code></pre></div><p><a href="#R-image-39c5be6f28a896aa9e2cba90b4d2ecf4" class="lightbox-link"><img src="attachment:df4144fbbe92a2c67c9e21ba986c958a" alt="3.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-39c5be6f28a896aa9e2cba90b4d2ecf4"><img src="attachment:df4144fbbe92a2c67c9e21ba986c958a" alt="3.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<!-- raw HTML omitted -->
+<h3 id="使用感受">使用感受</h3>
+<ol>
+<li>键鼠基本实现了无缝对接切换，速度很快。</li>
+<li>可以实现跨设备文字复制粘贴。图片测试没有成功。</li>
+</ol>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="mac技巧">Mac技巧</h1>
+
+<h1 id="2019款16寸mac-book-pro-显卡更新教程">2019款16寸Mac Book Pro 显卡更新教程</h1>
+<h2 id="一官网下载驱动">一：官网下载驱动</h2>
+<ol>
+<li>根据mac的显卡分类选择驱动</li>
+<li>查看驱动下载位置</li>
+<li>检查当前已安装驱动</li>
+<li>下载第三方显卡驱动，<code>www.bootcampdrivers.com</code>
+红色游戏，蓝色专业</li>
+</ol>
+<h2 id="二卸载驱动">二：卸载驱动</h2>
+<ol>
+<li>进入安全模式，<code>win+R</code>输入<code>msconfig</code>,勾选最下面；有选择的
+启动 → 引导 → 安全引导 → 确定 → 重启</li>
+<li>使用DDU彻底卸载当前驱动
+DDU软件在第三方驱动目录里面；两次仅清除，一次清除并重启</li>
+<li>退出安全模式
+<code>win+R</code> 输入<code>msconfig</code>，选择引导，取消安全引导，确定，重启</li>
+</ol>
+<h2 id="三安装驱动">三：安装驱动</h2>
+<ol>
+<li>安装官方驱动，打开官方驱动下载目录，双击<code>Setup.exe</code>，等待安装，点完成；不重启</li>
+<li>通过设备管理器更新官方驱动为第三方驱动
+打开设置 →系统 → 关于 → 设备管理器 → 显示适配器 → 更新驱动程序 → 浏览驱动程序 → 浏览以查找驱动程序 → 勾选包括子文件夹 → 完成重启</li>
+<li>安装第三方<code>Radeon Software</code>
+打开第三方驱动下载目录，双击<code>Setup.exe</code>,附加选项点开禁止勾选恢复出厂设置
+不然就要重头再来一次！
+<code>Full lnstsll</code> , <code>Min lnstsll</code>或者<code>Driver Only</code>，使用推荐<code>Full lnstsll</code>，等待安装完成</li>
+<li>检查更新后的驱动
+鼠标右键，或者状态栏下面会显示显卡图标打开设置，游戏下一步
+安装完成</li>
+</ol>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+<div class=" taxonomy-tags term-list cstyle  tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <ul>
+    <li><a class="term-link" href="/tags/pycharm/index.html">PyCharm</a></li>
+  </ul>
+</div>
+            </header>
+<h1 id="pycharm专业版激活">PyCharm专业版激活</h1>
+
+<p><code>前期准备下载工具</code>&raquo;<a href="https://pan.baidu.com/s/1tNnrYe5gA71ljAhvJCdMYg?pwd=6oow" target="_blank">PyCharm 23.3.2</a> &amp; <a href="https://pan.baidu.com/s/18tlCG5jkPCzlEowvH5-VGA?pwd=6oow" target="_blank">激活工具</a> &amp; <a href="https://pan.baidu.com/s/1PkhL-OAZan_ieLwuBjJhXA?pwd=6oow" target="_blank">激活码</a></p>
+<h2 id="最新图文教程202332-idea激活破解教程">最新图文教程：2023.3.2 IDEA激活破解教程</h2>
+<h3 id="一下载安装pycharm">一：下载安装pycharm</h3>
+<ul>
+<li>先去官网下载，我这里下载的是最新版本的<code>2023.3.2</code>，测试过2023最新版本以及2022版本以上的版本都没问题。</li>
+</ul>
+<p><a href="#R-image-eb160a0bb4c156f40f0c537c9a465f42" class="lightbox-link"><img src="/img/pyc1.png" alt="pyc1.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-eb160a0bb4c156f40f0c537c9a465f42"><img src="/img/pyc1.png" alt="pyc1.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<h3 id="二然后打开提示要输入激活码先关闭应用等下再打开">二：然后打开；提示要输入激活码，先关闭应用，等下再打开</h3>
+<p><a href="#R-image-dd72e18b58ec49504cd0401a5793a211" class="lightbox-link"><img src="attachment:da75724ae2253a20cba1eee57f5437b5" alt="pyc2.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-dd72e18b58ec49504cd0401a5793a211"><img src="attachment:da75724ae2253a20cba1eee57f5437b5" alt="pyc2.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<h3 id="三下载激活工具">三：下载激活工具</h3>
+<ul>
+<li>打开下载好的激活包（下载后记得不要删除和移动，然后安装的路径尽量不要带中文路径、删掉就会失效的）</li>
+<li><code>windows</code>系统的样子</li>
+</ul>
+<p><a href="#R-image-a2134afe38f0bfeda9926142da800de2" class="lightbox-link"><img src="attachment:23a87428867d5143967ce959a39671f8" alt="pyc3.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a2134afe38f0bfeda9926142da800de2"><img src="attachment:23a87428867d5143967ce959a39671f8" alt="pyc3.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<ul>
+<li>Mac系统的样子</li>
+</ul>
+<p><a href="#R-image-ed010a769463c460de4cbf90e6626cea" class="lightbox-link"><img src="attachment:9d48ea4b0e64f7c1406a89d25bd6391f" alt="pyc4.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ed010a769463c460de4cbf90e6626cea"><img src="attachment:9d48ea4b0e64f7c1406a89d25bd6391f" alt="pyc4.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<ul>
+<li>打开<code>scripts.</code>文件夹</li>
+</ul>
+<p><a href="#R-image-04a10cd69de0f05cdb17ff6f41d50faa" class="lightbox-link"><img src="attachment:c9662be2a849623f6215ce4452199070" alt="pyc5.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-04a10cd69de0f05cdb17ff6f41d50faa"><img src="attachment:c9662be2a849623f6215ce4452199070" alt="pyc5.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<h3 id="四windows系统的pycharm激活">四：windows系统的pycharm激活</h3>
+<ul>
+<li>先执行uninstall&ndash;all-users.vbs,直接双击打开，此步骤是为了防止之前有过激活信息，确保当前环境变量下没有激活工具的变量信息，可先执行卸载脚本在再进行后面的激活操作，避免激活失败。</li>
+</ul>
+<p><a href="#R-image-658afe57093fe6e90fd6eeb788e4d8eb" class="lightbox-link"><img src="attachment:1edabd702fba723e622f1d742e62e40d" alt="pyc6.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-658afe57093fe6e90fd6eeb788e4d8eb"><img src="attachment:1edabd702fba723e622f1d742e62e40d" alt="pyc6.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<ul>
+<li>然后再执行 install-current-user.vbs 直接双击打开即可</li>
+</ul>
+<p><a href="#R-image-4e86959c8195df76e85d7f36f2a91740" class="lightbox-link"><img src="attachment:a01df684fd8c3e29df90bb1974da2d85" alt="pyc7.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4e86959c8195df76e85d7f36f2a91740"><img src="attachment:a01df684fd8c3e29df90bb1974da2d85" alt="pyc7.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<ul>
+<li>这里需要等待10秒左右才会出现<code>Done</code>弹框；才是成功；然后再打开<code>pycharm</code>输入激活码即可</li>
+</ul>
+<h3 id="五mac系统的pycharm激活">五：Mac系统的pycharm激活</h3>
+<ul>
+<li>
+<p>先打开终端</p>
+</li>
+<li>
+<p>直接将 <code>uninstall.sh</code> 拖到终端 ;出现<code>Done</code>说明成功；此步骤是一键帮你去掉以前所激活过留下的东西；解决 <code>key is invalid</code>的问题；防止激活失败</p>
+</li>
+<li>
+<p>接着将 <code>install.sh</code> 拖到终端;与上面同理；出现 <code>Done</code> ； <code>the kill xxxx</code> 说明成功</p>
+</li>
+</ul>
+<p><a href="#R-image-93d63c674b61a240785ea774f0ebe708" class="lightbox-link"><img src="attachment:249729ca00c7a0def2db57ae024c40d4" alt="pyc08.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-93d63c674b61a240785ea774f0ebe708"><img src="attachment:249729ca00c7a0def2db57ae024c40d4" alt="pyc08.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<ul>
+<li>
+<p><code>sh xxxx</code> 运行下 <code>.sh</code>文件（记得<code>sh</code>后面加上空格）</p>
+</li>
+<li>
+<p>重新打开 <code>pycharm</code> ；输入激活码即可</p>
+</li>
+</ul>
+<h3 id="六激活演示">六：激活演示</h3>
+<ol>
+<li>输入激活码</li>
+</ol>
+<ul>
+<li><code>Licensed</code> 即表示激活成功；点击 <code>continue</code> 关掉窗口就好了</li>
+</ul>
+<p><a href="#R-image-832147b0ed25cc9b90a5355efd7afbf9" class="lightbox-link"><img src="attachment:66ba4e63199ebd2ad2d8e65e0f34197c" alt="pyc09.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-832147b0ed25cc9b90a5355efd7afbf9"><img src="attachment:66ba4e63199ebd2ad2d8e65e0f34197c" alt="pyc09.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<ul>
+<li>成功激活演示</li>
+</ul>
+<p><a href="#R-image-a815dc28060c5ae3909715469c471227" class="lightbox-link"><img src="attachment:91814db786d28e34f4e28a2ce95e2928" alt="pyc010.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a815dc28060c5ae3909715469c471227"><img src="attachment:91814db786d28e34f4e28a2ce95e2928" alt="pyc010.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<p>2：出现 <code>key is invalid</code> （密钥无效）</p>
+<ul>
+<li>请先重启下Pycharm,再输入激活码，如仍未解决，清参考下面的全家桶激活错误指导或者加最下方技术微信，帮你处理</li>
+</ul>
+<p><a href="#R-image-7cba42388f2fcd50a2004b09c31318a6" class="lightbox-link"><img src="attachment:18d86401560b46cf6db17f3bfb1699df" alt="pyc011.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7cba42388f2fcd50a2004b09c31318a6"><img src="attachment:18d86401560b46cf6db17f3bfb1699df" alt="pyc011.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<h4 id="激活失败参考全家桶激活错误指导">激活失败参考：全家桶激活错误指导</h4>
+<h4 id="错误一你没有解压文件夹就直接点了执行">错误一：你没有解压文件夹就直接点了执行</h4>
+<p><a href="#R-image-7c3745057214c8d04a43a76f13d068ac" class="lightbox-link"><img src="attachment:4969c7043610c0875ddbd71867a6fa6c" alt="pyc012.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7c3745057214c8d04a43a76f13d068ac"><img src="attachment:4969c7043610c0875ddbd71867a6fa6c" alt="pyc012.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<h4 id="错误二key-is-invalid">错误二：key is invalid</h4>
+<p><a href="#R-image-a5b50d4853d130d4ef9ad7dfe446f17a" class="lightbox-link"><img src="attachment:c01c043da245dedae72736df49039b47" alt="pyc013.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a5b50d4853d130d4ef9ad7dfe446f17a"><img src="attachment:c01c043da245dedae72736df49039b47" alt="pyc013.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<ul>
+<li>
+<p>激活工具未下载或者没有配置，返回查看教程，激活码无法单独使用，必须配合激活工具一起使用</p>
+</li>
+<li>
+<p>激活工具的路径配置有误，请核对</p>
+</li>
+<li>
+<p>配置完激活工具，未重启IDE开发工具，正常是不用的，避免你在配置的时候就打开了IDE,最好还是重启下，如果工具已经启动，配置完插件之后，请务必重启一下工具再使用激活码</p>
+</li>
+<li>
+<p>登录了账号，如果你登录了自己未授权订阅的账号，请退出，重新激活</p>
+</li>
+<li>
+<p>受到其他激活工具的影响，<code>jetbrāins</code>是允许安装多版本的，如果你有安装其他版本的其他激活工具，可能会互相干扰，请核对</p>
+</li>
+<li>
+<p>重启电脑，极少部分电脑重启工具也不会生效插件，必须重启电脑，可以尝试</p>
+</li>
+<li>
+<p>如果重启电脑后还不行，<code>Windows</code>电脑执行<code>uninstall-all-users.vbs</code>,然后再执行<code>install-al-users.vbs</code>,成功后，再次激活尝试，还不行就再重启一次电脑</p>
+</li>
+<li>
+<p>如果是<code>idea</code>,<code>pycharm</code>出现，一般需要重启下电脑，然后重新激活即可，如果不行，请参考解决方案-1</p>
+</li>
+<li>
+<p>Mac系统请卸载掉其他版本，参考解决方案-2，或者参考终极解决方案</p>
+</li>
+</ul>
+<h4 id="错误三打不开应用双击没反应">错误三：打不开应用，双击没反应</h4>
+<ul>
+<li>
+<p>为什么打不开？因为你配置的激活工具路径不对，肯定是你删除或者移动了激活工具</p>
+</li>
+<li>
+<p>安装完后，激活工具不要修改，不要移动，不要删除，如果有删除，清重新下我和激活</p>
+</li>
+<li>
+<p>之前装过其他的激活工具，没有删除干净环境变量和相关缓存，请参考解决方案一和二</p>
+</li>
+</ul>
+<h4 id="解决方案一删除注册表与缓存">解决方案一：删除注册表与缓存</h4>
+<p>如果激活失败，请确保是否安装过一些vb脚本，这个会影响jr包的加载，请务必先删除缓存并将软件卸载干净，重新激活，删除方式清参考：</p>
+<ul>
+<li>删除本地缓存</li>
+</ul>
+<p>删除用户目录下的<code>jetbrainss</code>缓存，一般在<code>AppData</code>目录下，如图所示</p>
+<p><a href="#R-image-f7c399ea9b4404daa674b71d03f007a8" class="lightbox-link"><img src="attachment:7626d1c0e7e1b352d828818f03eee258" alt="pyc014.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f7c399ea9b4404daa674b71d03f007a8"><img src="attachment:7626d1c0e7e1b352d828818f03eee258" alt="pyc014.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<ul>
+<li>删除注册表信息</li>
+</ul>
+<p><code>Win+R</code>输入<code>regedit</code>,打开注册表，删除如下目录<code>jetbrains</code>文件夹</p>
+<blockquote>
+<p>计算机<code>\HKEY_CURRENT_USER\SOFTWARE JavaSoft\Prefs\jetbrains</code></p>
+</blockquote>
+<p><a href="#R-image-b3284464c859ddd1aef54e711dcafb31" class="lightbox-link"><img src="attachment:4b47ff547cac12135664cfc0f8eac5e6" alt="pyc015.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b3284464c859ddd1aef54e711dcafb31"><img src="attachment:4b47ff547cac12135664cfc0f8eac5e6" alt="pyc015.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<ul>
+<li>删除历史环境变量</li>
+</ul>
+<blockquote>
+<p>请打开你下载的激活工具 windows系统，双击打开执行下uninsta-al-users.Vbs</p>
+</blockquote>
+<p><a href="#R-image-f97ef36d30a1bbf4d4c1feebc1804b77" class="lightbox-link"><img src="attachment:ef080d010f5919aa82536e2f93dea21e" alt="pyc016.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f97ef36d30a1bbf4d4c1feebc1804b77"><img src="attachment:ef080d010f5919aa82536e2f93dea21e" alt="pyc016.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<h4 id="解决方案二使用卸载脚本清理掉历史其他渠道的激活工具">解决方案二：使用卸载脚本，清理掉历史其他渠道的激活工具</h4>
+<ul>
+<li><code>Win</code>系统下双击执行即可</li>
+</ul>
+<p><a href="https://pan.baidu.com/s/1HmDyk160Rw8wY3fmboTcHg?pwd=6oow" target="_blank">Win版卸载脚本</a></p>
+<ul>
+<li><code>Mac &amp; Linux</code> 系统下载解压，打开终端拖入，执行即可</li>
+</ul>
+<p><a href="https://pan.baidu.com/s/16khjTHGymTzIE9Ng1gK8vQ?pwd=6oow" target="_blank">Mac版卸载脚本</a></p>
+<h4 id="终极解决方案适用全部操作系统">终极解决方案（适用全部操作系统）</h4>
+<ul>
+<li>以上步骤操作后还出现 key is invalid,则点击 start trial 先登录-&gt;试用，手动配置 jar 包的路径即可：</li>
+</ul>
+<p><a href="#R-image-a682301558f44d365ba6bef32b73c29a" class="lightbox-link"><img src="attachment:7364d9fbc8936d51343e74308beb6036" alt="pyc017.png" class="figure-image border lightbox noshadow" style="height: auto; width: auto;" loading="lazy"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a682301558f44d365ba6bef32b73c29a"><img src="attachment:7364d9fbc8936d51343e74308beb6036" alt="pyc017.png" class="lightbox-image border lightbox noshadow" loading="lazy"></a></p>
+<ul>
+<li>
+<p><code>Win</code>系统示例： <code>javaagent:D:\jihuo.live jihuo-tool\ja-netfilter.jar=jetbrains</code></p>
+</li>
+<li>
+<p><code>Mac &amp; Linux</code> 系统示例： <code>javaagent:/Applications/IntelliIDEA.app/Contents/bin/ja-netfilter.jar=jetbrains</code></p>
+</li>
+</ul>
+<p>==上面这个路径是你电脑的 <code>ja-netfilter.jar</code> 的路径 ==</p>
+
+<div class="box notices cstyle tip">
+  <div class="box-label"><i class="fa-fw fas fa-lightbulb"></i> 提示</div>
+  <div class="box-content">
+
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --> 最后还搞不定，联系我，远程帮你搞定</p>
+</div>
+</div>
+
+            <footer class="footline">
+<div class=" taxonomy-categories term-list cstyle  " title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/categories/pycharm%E4%B8%93%E4%B8%9A%E7%89%88%E6%BF%80%E6%B4%BB/index.html">PyCharm专业版激活 </a></li>
+  </ul>
+</div>
+            </footer>
+          </article>
+
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard.min.js?1708238489" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1708238489" defer></script>
+    <script src="/js/theme.js?1708238489" defer></script>
+  </body>
+</html>

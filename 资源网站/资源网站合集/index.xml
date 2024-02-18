@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>资源网站合集 on 只收录实用工具与精品教程</title>
+    <link>https://example.org/%E8%B5%84%E6%BA%90%E7%BD%91%E7%AB%99/%E8%B5%84%E6%BA%90%E7%BD%91%E7%AB%99%E5%90%88%E9%9B%86/index.html</link>
+    <description>Recent content in 资源网站合集 on 只收录实用工具与精品教程</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <atom:link href="https://example.org/%E8%B5%84%E6%BA%90%E7%BD%91%E7%AB%99/%E8%B5%84%E6%BA%90%E7%BD%91%E7%AB%99%E5%90%88%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
